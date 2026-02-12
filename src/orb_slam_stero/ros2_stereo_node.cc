@@ -101,8 +101,8 @@ int main(int argc, char **argv)
     }
 
     // 消息订阅（双目图像）
-    message_filters::Subscriber<sensor_msgs::msg::Image> left_sub(node, "/camera/left/image_raw", 1);
-    message_filters::Subscriber<sensor_msgs::msg::Image> right_sub(node, "/camera/right/image_raw", 1);
+    message_filters::Subscriber<sensor_msgs::msg::Image> left_sub(node, "/camera/left/image_raw", rmw_qos_profile_default);
+    message_filters::Subscriber<sensor_msgs::msg::Image> right_sub(node, "/camera/right/image_raw", rmw_qos_profile_default);
 
     // 时间同步策略（近似时间同步）
     typedef sync_policies::ApproximateTime<sensor_msgs::msg::Image, sensor_msgs::msg::Image> SyncPolicy;

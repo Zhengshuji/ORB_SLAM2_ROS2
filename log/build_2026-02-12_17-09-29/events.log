@@ -1,0 +1,350 @@
+[0.000000] (-) TimerEvent: {}
+[0.000706] (orb_slam2_stereo) JobQueued: {'identifier': 'orb_slam2_stereo', 'dependencies': OrderedDict()}
+[0.001535] (orb_slam2_stereo) JobStarted: {'identifier': 'orb_slam2_stereo'}
+[0.018424] (orb_slam2_stereo) JobProgress: {'identifier': 'orb_slam2_stereo', 'progress': 'cmake'}
+[0.019251] (orb_slam2_stereo) JobProgress: {'identifier': 'orb_slam2_stereo', 'progress': 'build'}
+[0.020695] (orb_slam2_stereo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo', '--', '-j18', '-l18'], 'cwd': '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'zsj'), ('GIT_ASKPASS', '/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/zsj'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-073531b3-f422-4809-a5f7-ab58e98e5371.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_CONDA_ROOT', '/home/zsj/tools/miniconda3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zsj'), ('NAME', 'Zhuxingjie'), ('WSL_INTEROP', '/run/WSL/413_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zsj/.local/bin:/home/zsj/.local/bin:/home/zsj/.local/bin:(/home/zsj/tools/miniconda3/bin:/home/zsj/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/zsj/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/home/zsj/.local/bin:/home/zsj/.local/bin:/home/zsj/.local/bin:/opt/ros/humble/bin:(/home/zsj/tools/miniconda3/bin:/home/zsj/tools/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/anaconda3-updata:/mnt/c/ProgramData/anaconda3-updata/Scripts:/mnt/c/ProgramData/anaconda3-updata/Library/bin:/mnt/c/ProgramData/anaconda3-updata/Library/mingw-w64/bin:/mnt/c/Program Files/JetBrains/PyCharm 2024.1/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/d/Matlab/bin:/mnt/d/Matlab/runtime/win64:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/90/Tools/binn:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin:/mnt/d/OpenCV/x86_64-12.2.0-release-win32-sjlj-rt_v10-rev0/mingw64/bin:/mnt/d/OpenCV/cmake-3.30.0-windows-x86_64/cmake-3.30.0-windows-x86_64/bin:/mnt/d/OpenCV/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/wget:/mnt/d/Program Files/texlive/2024/bin/windows:/mnt/c/Program Files/OpenSSH/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/d/OpenCV/MinGW/bin:/mnt/c/Users/26074/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/26074/AppData/Local/Microsoft/WinGet/Packages/Game1024.OpenSpeedy_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/26074/AppData/Local/Programs/Ollama:/mnt/c/Users/26074/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin):/mnt/c/Users/26074/AppData/Local/Programs/Microsoft VS Code/bin):/mnt/c/Users/26074/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1a22f3f7b8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zsj/tools/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_CONDA_EXE', '/home/zsj/tools/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo'), ('CONDA_EXE', '/home/zsj/tools/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/zsj/tools/miniconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.102798] (-) TimerEvent: {}
+[0.104560] (orb_slam2_stereo) StdoutLine: {'line': b'[ 11%] Built target DBoW2\n'}
+[0.123802] (orb_slam2_stereo) StdoutLine: {'line': b'[ 62%] Built target g2o\n'}
+[0.153228] (orb_slam2_stereo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orb_slam2_core\x1b[0m\n'}
+[0.205189] (-) TimerEvent: {}
+[0.208909] (orb_slam2_stereo) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LoopClosing.cc.o\x1b[0m\n'}
+[0.209839] (orb_slam2_stereo) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Tracking.cc.o\x1b[0m\n'}
+[0.305593] (-) TimerEvent: {}
+[0.406576] (-) TimerEvent: {}
+[0.508042] (-) TimerEvent: {}
+[0.610769] (-) TimerEvent: {}
+[0.711687] (-) TimerEvent: {}
+[0.812723] (-) TimerEvent: {}
+[0.913546] (-) TimerEvent: {}
+[1.014296] (-) TimerEvent: {}
+[1.116792] (-) TimerEvent: {}
+[1.219335] (-) TimerEvent: {}
+[1.322176] (-) TimerEvent: {}
+[1.425249] (-) TimerEvent: {}
+[1.528231] (-) TimerEvent: {}
+[1.630730] (-) TimerEvent: {}
+[1.732894] (-) TimerEvent: {}
+[1.835335] (-) TimerEvent: {}
+[1.938154] (-) TimerEvent: {}
+[2.040813] (-) TimerEvent: {}
+[2.143890] (-) TimerEvent: {}
+[2.246083] (-) TimerEvent: {}
+[2.348741] (-) TimerEvent: {}
+[2.451553] (-) TimerEvent: {}
+[2.553886] (-) TimerEvent: {}
+[2.656450] (-) TimerEvent: {}
+[2.758774] (-) TimerEvent: {}
+[2.859425] (-) TimerEvent: {}
+[2.962362] (-) TimerEvent: {}
+[3.063370] (-) TimerEvent: {}
+[3.164313] (-) TimerEvent: {}
+[3.267024] (-) TimerEvent: {}
+[3.367828] (-) TimerEvent: {}
+[3.469935] (-) TimerEvent: {}
+[3.573264] (-) TimerEvent: {}
+[3.676175] (-) TimerEvent: {}
+[3.779188] (-) TimerEvent: {}
+[3.881942] (-) TimerEvent: {}
+[3.984439] (-) TimerEvent: {}
+[4.087025] (-) TimerEvent: {}
+[4.189598] (-) TimerEvent: {}
+[4.292447] (-) TimerEvent: {}
+[4.395236] (-) TimerEvent: {}
+[4.496260] (-) TimerEvent: {}
+[4.597433] (-) TimerEvent: {}
+[4.698598] (-) TimerEvent: {}
+[4.801453] (-) TimerEvent: {}
+[4.904645] (-) TimerEvent: {}
+[5.007999] (-) TimerEvent: {}
+[5.110556] (-) TimerEvent: {}
+[5.212898] (-) TimerEvent: {}
+[5.315801] (-) TimerEvent: {}
+[5.418629] (-) TimerEvent: {}
+[5.521525] (-) TimerEvent: {}
+[5.624256] (-) TimerEvent: {}
+[5.727319] (-) TimerEvent: {}
+[5.829737] (-) TimerEvent: {}
+[5.932412] (-) TimerEvent: {}
+[6.035520] (-) TimerEvent: {}
+[6.138799] (-) TimerEvent: {}
+[6.241767] (-) TimerEvent: {}
+[6.344542] (-) TimerEvent: {}
+[6.447392] (-) TimerEvent: {}
+[6.505680] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/LoopClosing.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM2::LoopClosing::CorrectLoop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.506254] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/LoopClosing.cc:416:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of an operand of type \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Koperator++\x1b[m\x1b[K\xe2\x80\x99 is forbidden in C++17\n'}
+[6.506488] (orb_slam2_stereo) StderrLine: {'line': b'  416 |         \x1b[01;31m\x1b[KmnFullBAIdx\x1b[m\x1b[K++;\n'}
+[6.506640] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.527628] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat ORB_SLAM2::Tracking::GrabImageStereo(const cv::Mat&, const cv::Mat&, const double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.527891] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:177:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.527995] (orb_slam2_stereo) StderrLine: {'line': b'  177 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCOLOR_RGB2GRAY\x1b[m\x1b[K);\n'}
+[6.528047] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.528092] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kcv::COLOR_RGB2GRAY\x1b[m\x1b[K\n'}
+[6.528699] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[6.528828] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[6.528880] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.528939] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[6.528996] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[6.529041] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[6.529082] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[6.529125] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[6.529167] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:552:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.529211] (orb_slam2_stereo) StderrLine: {'line': b'  552 |     \x1b[01;36m\x1b[KCOLOR_RGB2GRAY\x1b[m\x1b[K     = 7,\n'}
+[6.529252] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.532340] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:182:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.532502] (orb_slam2_stereo) StderrLine: {'line': b'  182 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCOLOR_BGR2GRAY\x1b[m\x1b[K);\n'}
+[6.532554] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.532596] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kcv::COLOR_BGR2GRAY\x1b[m\x1b[K\n'}
+[6.532637] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[6.532677] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[6.532719] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.532794] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[6.532852] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[6.532894] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[6.532932] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[6.532974] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[6.533032] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:551:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.533087] (orb_slam2_stereo) StderrLine: {'line': b'  551 |     \x1b[01;36m\x1b[KCOLOR_BGR2GRAY\x1b[m\x1b[K     = 6, //!< convert between RGB/BGR and grayscale, @ref color_convert_rgb_gray "color conversions"\n'}
+[6.533130] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.534807] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:190:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.534911] (orb_slam2_stereo) StderrLine: {'line': b'  190 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCOLOR_RGBA2GRAY\x1b[m\x1b[K);\n'}
+[6.534960] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.535003] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kcv::COLOR_RGBA2GRAY\x1b[m\x1b[K\n'}
+[6.535045] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[6.535084] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[6.535160] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.535206] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[6.535248] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[6.535288] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[6.535325] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[6.535362] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[6.535399] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:558:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.535438] (orb_slam2_stereo) StderrLine: {'line': b'  558 |     \x1b[01;36m\x1b[KCOLOR_RGBA2GRAY\x1b[m\x1b[K    = 11,\n'}
+[6.535475] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.537101] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:195:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.537288] (orb_slam2_stereo) StderrLine: {'line': b'  195 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCOLOR_BGRA2GRAY\x1b[m\x1b[K);\n'}
+[6.537377] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.537464] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kcv::COLOR_BGRA2GRAY\x1b[m\x1b[K\n'}
+[6.537626] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[6.537717] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[6.537804] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.537886] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[6.537972] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[6.538049] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[6.538121] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[6.538192] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[6.538262] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:557:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.538333] (orb_slam2_stereo) StderrLine: {'line': b'  557 |     \x1b[01;36m\x1b[KCOLOR_BGRA2GRAY\x1b[m\x1b[K    = 10,\n'}
+[6.538403] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.540511] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat ORB_SLAM2::Tracking::GrabImageRGBD(const cv::Mat&, const cv::Mat&, const double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.540668] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:216:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.540762] (orb_slam2_stereo) StderrLine: {'line': b'  216 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCOLOR_RGB2GRAY\x1b[m\x1b[K);\n'}
+[6.540838] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.540913] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kcv::COLOR_RGB2GRAY\x1b[m\x1b[K\n'}
+[6.540983] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[6.541170] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[6.541263] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.541341] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[6.541425] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[6.541498] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[6.541570] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[6.541641] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[6.541711] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:552:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.541780] (orb_slam2_stereo) StderrLine: {'line': b'  552 |     \x1b[01;36m\x1b[KCOLOR_RGB2GRAY\x1b[m\x1b[K     = 7,\n'}
+[6.541850] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.542584] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:218:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.542691] (orb_slam2_stereo) StderrLine: {'line': b'  218 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCOLOR_BGR2GRAY\x1b[m\x1b[K);\n'}
+[6.542742] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.542784] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kcv::COLOR_BGR2GRAY\x1b[m\x1b[K\n'}
+[6.542830] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[6.542873] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[6.542914] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.542953] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[6.542990] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[6.543038] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[6.543076] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[6.543112] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[6.543149] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:551:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.543188] (orb_slam2_stereo) StderrLine: {'line': b'  551 |     \x1b[01;36m\x1b[KCOLOR_BGR2GRAY\x1b[m\x1b[K     = 6, //!< convert between RGB/BGR and grayscale, @ref color_convert_rgb_gray "color conversions"\n'}
+[6.543229] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.545670] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:223:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.545806] (orb_slam2_stereo) StderrLine: {'line': b'  223 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCOLOR_RGBA2GRAY\x1b[m\x1b[K);\n'}
+[6.545861] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.545903] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kcv::COLOR_RGBA2GRAY\x1b[m\x1b[K\n'}
+[6.545946] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[6.545987] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[6.546029] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.546066] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[6.546103] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[6.546141] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[6.546177] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[6.546214] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[6.546250] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:558:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.546290] (orb_slam2_stereo) StderrLine: {'line': b'  558 |     \x1b[01;36m\x1b[KCOLOR_RGBA2GRAY\x1b[m\x1b[K    = 11,\n'}
+[6.546329] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.547649] (-) TimerEvent: {}
+[6.548362] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:225:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.548528] (orb_slam2_stereo) StderrLine: {'line': b'  225 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCOLOR_BGRA2GRAY\x1b[m\x1b[K);\n'}
+[6.548618] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.548695] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kcv::COLOR_BGRA2GRAY\x1b[m\x1b[K\n'}
+[6.548769] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[6.548855] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[6.548928] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.549017] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[6.549115] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[6.549187] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[6.549260] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[6.549339] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[6.549413] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:557:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.549484] (orb_slam2_stereo) StderrLine: {'line': b'  557 |     \x1b[01;36m\x1b[KCOLOR_BGRA2GRAY\x1b[m\x1b[K    = 10,\n'}
+[6.549553] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.550769] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat ORB_SLAM2::Tracking::GrabImageMonocular(const cv::Mat&, const double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.550943] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:246:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.551048] (orb_slam2_stereo) StderrLine: {'line': b'  246 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCOLOR_RGB2GRAY\x1b[m\x1b[K);\n'}
+[6.551140] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.551230] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kcv::COLOR_RGB2GRAY\x1b[m\x1b[K\n'}
+[6.551316] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[6.551400] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[6.551485] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.551582] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[6.551666] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[6.551759] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[6.551840] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[6.551922] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[6.552003] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:552:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.552083] (orb_slam2_stereo) StderrLine: {'line': b'  552 |     \x1b[01;36m\x1b[KCOLOR_RGB2GRAY\x1b[m\x1b[K     = 7,\n'}
+[6.552164] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.552910] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:248:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.553060] (orb_slam2_stereo) StderrLine: {'line': b'  248 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCOLOR_BGR2GRAY\x1b[m\x1b[K);\n'}
+[6.553117] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.553163] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kcv::COLOR_BGR2GRAY\x1b[m\x1b[K\n'}
+[6.553210] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[6.553252] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[6.553302] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.553343] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[6.553384] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[6.553424] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[6.553495] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[6.553538] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[6.553585] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:551:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.553630] (orb_slam2_stereo) StderrLine: {'line': b'  551 |     \x1b[01;36m\x1b[KCOLOR_BGR2GRAY\x1b[m\x1b[K     = 6, //!< convert between RGB/BGR and grayscale, @ref color_convert_rgb_gray "color conversions"\n'}
+[6.553670] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.555999] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:253:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.556178] (orb_slam2_stereo) StderrLine: {'line': b'  253 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCOLOR_RGBA2GRAY\x1b[m\x1b[K);\n'}
+[6.556268] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.556346] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kcv::COLOR_RGBA2GRAY\x1b[m\x1b[K\n'}
+[6.556423] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[6.556496] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[6.556569] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.556640] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[6.556710] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[6.556785] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[6.556879] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[6.556962] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[6.557117] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:558:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.557294] (orb_slam2_stereo) StderrLine: {'line': b'  558 |     \x1b[01;36m\x1b[KCOLOR_RGBA2GRAY\x1b[m\x1b[K    = 11,\n'}
+[6.557454] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.558270] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:255:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.558377] (orb_slam2_stereo) StderrLine: {'line': b'  255 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCOLOR_BGRA2GRAY\x1b[m\x1b[K);\n'}
+[6.558429] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.558472] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kcv::COLOR_BGRA2GRAY\x1b[m\x1b[K\n'}
+[6.558515] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[6.558555] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[6.558598] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.558647] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[6.558686] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[6.558723] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[6.558761] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[6.558798] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[6.558834] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:557:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.558877] (orb_slam2_stereo) StderrLine: {'line': b'  557 |     \x1b[01;36m\x1b[KCOLOR_BGRA2GRAY\x1b[m\x1b[K    = 10,\n'}
+[6.558914] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.650267] (-) TimerEvent: {}
+[6.751274] (-) TimerEvent: {}
+[6.854286] (-) TimerEvent: {}
+[6.957477] (-) TimerEvent: {}
+[7.060877] (-) TimerEvent: {}
+[7.163615] (-) TimerEvent: {}
+[7.264945] (-) TimerEvent: {}
+[7.367615] (-) TimerEvent: {}
+[7.469100] (-) TimerEvent: {}
+[7.572573] (-) TimerEvent: {}
+[7.676173] (-) TimerEvent: {}
+[7.779495] (-) TimerEvent: {}
+[7.882770] (-) TimerEvent: {}
+[7.983664] (-) TimerEvent: {}
+[8.091810] (-) TimerEvent: {}
+[8.192809] (-) TimerEvent: {}
+[8.294136] (-) TimerEvent: {}
+[8.395150] (-) TimerEvent: {}
+[8.502036] (-) TimerEvent: {}
+[8.609453] (-) TimerEvent: {}
+[8.714841] (-) TimerEvent: {}
+[8.822179] (-) TimerEvent: {}
+[8.924751] (-) TimerEvent: {}
+[9.027974] (-) TimerEvent: {}
+[9.130681] (-) TimerEvent: {}
+[9.237390] (-) TimerEvent: {}
+[9.344252] (-) TimerEvent: {}
+[9.448227] (-) TimerEvent: {}
+[9.554967] (-) TimerEvent: {}
+[9.655956] (-) TimerEvent: {}
+[9.757446] (-) TimerEvent: {}
+[9.862644] (-) TimerEvent: {}
+[9.963887] (-) TimerEvent: {}
+[10.072508] (-) TimerEvent: {}
+[10.174876] (-) TimerEvent: {}
+[10.283267] (-) TimerEvent: {}
+[10.384131] (-) TimerEvent: {}
+[10.486958] (-) TimerEvent: {}
+[10.590842] (-) TimerEvent: {}
+[10.694192] (-) TimerEvent: {}
+[10.797466] (-) TimerEvent: {}
+[10.900581] (-) TimerEvent: {}
+[11.003696] (-) TimerEvent: {}
+[11.106998] (-) TimerEvent: {}
+[11.209799] (-) TimerEvent: {}
+[11.314456] (-) TimerEvent: {}
+[11.419192] (-) TimerEvent: {}
+[11.523720] (-) TimerEvent: {}
+[11.628323] (-) TimerEvent: {}
+[11.732787] (-) TimerEvent: {}
+[11.837878] (-) TimerEvent: {}
+[11.942792] (-) TimerEvent: {}
+[12.047748] (-) TimerEvent: {}
+[12.148815] (-) TimerEvent: {}
+[12.251571] (-) TimerEvent: {}
+[12.354091] (-) TimerEvent: {}
+[12.457250] (-) TimerEvent: {}
+[12.562487] (-) TimerEvent: {}
+[12.665819] (-) TimerEvent: {}
+[12.767500] (-) TimerEvent: {}
+[12.869804] (-) TimerEvent: {}
+[12.972472] (-) TimerEvent: {}
+[13.075448] (-) TimerEvent: {}
+[13.178515] (-) TimerEvent: {}
+[13.281336] (-) TimerEvent: {}
+[13.384678] (-) TimerEvent: {}
+[13.487849] (-) TimerEvent: {}
+[13.590737] (-) TimerEvent: {}
+[13.693068] (-) TimerEvent: {}
+[13.796222] (-) TimerEvent: {}
+[13.898695] (-) TimerEvent: {}
+[14.001646] (-) TimerEvent: {}
+[14.104032] (-) TimerEvent: {}
+[14.206408] (-) TimerEvent: {}
+[14.308306] (-) TimerEvent: {}
+[14.411527] (-) TimerEvent: {}
+[14.512367] (-) TimerEvent: {}
+[14.613427] (-) TimerEvent: {}
+[14.714026] (-) TimerEvent: {}
+[14.757400] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:174: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LoopClosing.cc.o] Error 1\n'}
+[14.757639] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[14.816041] (-) TimerEvent: {}
+[14.866001] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:314: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Tracking.cc.o] Error 1\n'}
+[14.866572] (orb_slam2_stereo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/orb_slam2_core.dir/all] Error 2\n'}
+[14.866961] (orb_slam2_stereo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.871143] (orb_slam2_stereo) CommandEnded: {'returncode': 2}
+[14.886591] (orb_slam2_stereo) JobEnded: {'identifier': 'orb_slam2_stereo', 'rc': 2}
+[14.897620] (-) EventReactorShutdown: {}

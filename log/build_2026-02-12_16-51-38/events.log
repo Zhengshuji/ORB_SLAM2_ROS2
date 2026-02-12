@@ -1,0 +1,846 @@
+[0.000000] (-) TimerEvent: {}
+[0.000635] (orb_slam2_stereo) JobQueued: {'identifier': 'orb_slam2_stereo', 'dependencies': OrderedDict()}
+[0.001380] (orb_slam2_stereo) JobStarted: {'identifier': 'orb_slam2_stereo'}
+[0.010634] (orb_slam2_stereo) JobProgress: {'identifier': 'orb_slam2_stereo', 'progress': 'cmake'}
+[0.011960] (orb_slam2_stereo) JobProgress: {'identifier': 'orb_slam2_stereo', 'progress': 'build'}
+[0.016949] (orb_slam2_stereo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo', '--', '-j18', '-l18'], 'cwd': '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'zsj'), ('GIT_ASKPASS', '/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/zsj'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-073531b3-f422-4809-a5f7-ab58e98e5371.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_CONDA_ROOT', '/home/zsj/tools/miniconda3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zsj'), ('NAME', 'Zhuxingjie'), ('WSL_INTEROP', '/run/WSL/413_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zsj/.local/bin:/home/zsj/.local/bin:/home/zsj/.local/bin:(/home/zsj/tools/miniconda3/bin:/home/zsj/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/zsj/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/home/zsj/.local/bin:/home/zsj/.local/bin:/home/zsj/.local/bin:/opt/ros/humble/bin:(/home/zsj/tools/miniconda3/bin:/home/zsj/tools/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/anaconda3-updata:/mnt/c/ProgramData/anaconda3-updata/Scripts:/mnt/c/ProgramData/anaconda3-updata/Library/bin:/mnt/c/ProgramData/anaconda3-updata/Library/mingw-w64/bin:/mnt/c/Program Files/JetBrains/PyCharm 2024.1/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/d/Matlab/bin:/mnt/d/Matlab/runtime/win64:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/90/Tools/binn:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin:/mnt/d/OpenCV/x86_64-12.2.0-release-win32-sjlj-rt_v10-rev0/mingw64/bin:/mnt/d/OpenCV/cmake-3.30.0-windows-x86_64/cmake-3.30.0-windows-x86_64/bin:/mnt/d/OpenCV/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/wget:/mnt/d/Program Files/texlive/2024/bin/windows:/mnt/c/Program Files/OpenSSH/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/d/OpenCV/MinGW/bin:/mnt/c/Users/26074/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/26074/AppData/Local/Microsoft/WinGet/Packages/Game1024.OpenSpeedy_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/26074/AppData/Local/Programs/Ollama:/mnt/c/Users/26074/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin):/mnt/c/Users/26074/AppData/Local/Programs/Microsoft VS Code/bin):/mnt/c/Users/26074/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1a22f3f7b8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zsj/tools/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_CONDA_EXE', '/home/zsj/tools/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo'), ('CONDA_EXE', '/home/zsj/tools/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/zsj/tools/miniconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099746] (-) TimerEvent: {}
+[0.102167] (orb_slam2_stereo) StdoutLine: {'line': b'[ 11%] Built target DBoW2\n'}
+[0.121688] (orb_slam2_stereo) StdoutLine: {'line': b'[ 62%] Built target g2o\n'}
+[0.148823] (orb_slam2_stereo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orb_slam2_core\x1b[0m\n'}
+[0.194999] (orb_slam2_stereo) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Initializer.cc.o\x1b[0m\n'}
+[0.197107] (orb_slam2_stereo) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LocalMapping.cc.o\x1b[0m\n'}
+[0.200133] (-) TimerEvent: {}
+[0.206033] (orb_slam2_stereo) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Tracking.cc.o\x1b[0m\n'}
+[0.206746] (orb_slam2_stereo) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/System.cc.o\x1b[0m\n'}
+[0.207680] (orb_slam2_stereo) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LoopClosing.cc.o\x1b[0m\n'}
+[0.208776] (orb_slam2_stereo) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/FrameDrawer.cc.o\x1b[0m\n'}
+[0.210831] (orb_slam2_stereo) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Sim3Solver.cc.o\x1b[0m\n'}
+[0.214722] (orb_slam2_stereo) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Viewer.cc.o\x1b[0m\n'}
+[0.216644] (orb_slam2_stereo) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/PnPsolver.cc.o\x1b[0m\n'}
+[0.221210] (orb_slam2_stereo) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Optimizer.cc.o\x1b[0m\n'}
+[0.300635] (-) TimerEvent: {}
+[0.401820] (-) TimerEvent: {}
+[0.507887] (-) TimerEvent: {}
+[0.614020] (-) TimerEvent: {}
+[0.715153] (-) TimerEvent: {}
+[0.815996] (-) TimerEvent: {}
+[0.917012] (-) TimerEvent: {}
+[1.017784] (-) TimerEvent: {}
+[1.061083] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Optimizer.cc:23:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/g2o/g2o/core/block_solver.h: No such file or directory\n'}
+[1.061565] (orb_slam2_stereo) StderrLine: {'line': b'   23 | #include \x1b[01;31m\x1b[K"Thirdparty/g2o/g2o/core/block_solver.h"\x1b[m\x1b[K\n'}
+[1.061720] (orb_slam2_stereo) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.061895] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[1.072218] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:258: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Optimizer.cc.o] Error 1\n'}
+[1.072623] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[1.118401] (-) TimerEvent: {}
+[1.219639] (-) TimerEvent: {}
+[1.320841] (-) TimerEvent: {}
+[1.421856] (-) TimerEvent: {}
+[1.522788] (-) TimerEvent: {}
+[1.623873] (-) TimerEvent: {}
+[1.724999] (-) TimerEvent: {}
+[1.826690] (-) TimerEvent: {}
+[1.927782] (-) TimerEvent: {}
+[2.029264] (-) TimerEvent: {}
+[2.130617] (-) TimerEvent: {}
+[2.232072] (-) TimerEvent: {}
+[2.333259] (-) TimerEvent: {}
+[2.434323] (-) TimerEvent: {}
+[2.535131] (-) TimerEvent: {}
+[2.637850] (-) TimerEvent: {}
+[2.741080] (-) TimerEvent: {}
+[2.843338] (-) TimerEvent: {}
+[2.946167] (-) TimerEvent: {}
+[3.049489] (-) TimerEvent: {}
+[3.150548] (-) TimerEvent: {}
+[3.252929] (-) TimerEvent: {}
+[3.356096] (-) TimerEvent: {}
+[3.458871] (-) TimerEvent: {}
+[3.560919] (-) TimerEvent: {}
+[3.661643] (-) TimerEvent: {}
+[3.766649] (-) TimerEvent: {}
+[3.867501] (-) TimerEvent: {}
+[3.881041] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:53\x1b[m\x1b[K:\n'}
+[3.881427] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:96:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.881711] (orb_slam2_stereo) StderrLine: {'line': b'   96 |   void fill_M(\x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * M, const int row, const double * alphas, const double u, const double v);\n'}
+[3.881816] (orb_slam2_stereo) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.890845] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:102:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.891438] (orb_slam2_stereo) StderrLine: {'line': b'  102 |   void find_betas_approx_1(const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * L_6x10, const CvMat * Rho, double * betas);\n'}
+[3.891754] (orb_slam2_stereo) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.893855] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:102:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.894160] (orb_slam2_stereo) StderrLine: {'line': b'  102 |   void find_betas_approx_1(const CvMat * L_6x10, const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * Rho, double * betas);\n'}
+[3.894355] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.901510] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:103:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.901999] (orb_slam2_stereo) StderrLine: {'line': b'  103 |   void find_betas_approx_2(const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * L_6x10, const CvMat * Rho, double * betas);\n'}
+[3.902221] (orb_slam2_stereo) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.908815] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:103:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.909208] (orb_slam2_stereo) StderrLine: {'line': b'  103 |   void find_betas_approx_2(const CvMat * L_6x10, const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * Rho, double * betas);\n'}
+[3.909364] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.913136] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:104:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.913508] (orb_slam2_stereo) StderrLine: {'line': b'  104 |   void find_betas_approx_3(const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * L_6x10, const CvMat * Rho, double * betas);\n'}
+[3.913713] (orb_slam2_stereo) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.918892] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:104:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.919298] (orb_slam2_stereo) StderrLine: {'line': b'  104 |   void find_betas_approx_3(const CvMat * L_6x10, const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * Rho, double * betas);\n'}
+[3.919433] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.919545] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:105:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.919672] (orb_slam2_stereo) StderrLine: {'line': b'  105 |   void qr_solve(\x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * A, CvMat * b, CvMat * X);\n'}
+[3.919774] (orb_slam2_stereo) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.919871] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:105:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.919948] (orb_slam2_stereo) StderrLine: {'line': b'  105 |   void qr_solve(CvMat * A, \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * b, CvMat * X);\n'}
+[3.920018] (orb_slam2_stereo) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.920088] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:105:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.920158] (orb_slam2_stereo) StderrLine: {'line': b'  105 |   void qr_solve(CvMat * A, CvMat * b, \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * X);\n'}
+[3.920240] (orb_slam2_stereo) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.923460] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:113:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.923822] (orb_slam2_stereo) StderrLine: {'line': b'  113 |   void gauss_newton(const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * L_6x10, const CvMat * Rho, double current_betas[4]);\n'}
+[3.923972] (orb_slam2_stereo) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.929821] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:113:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.930227] (orb_slam2_stereo) StderrLine: {'line': b'  113 |   void gauss_newton(const CvMat * L_6x10, const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * Rho, double current_betas[4]);\n'}
+[3.930344] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.930421] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:115:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.930542] (orb_slam2_stereo) StderrLine: {'line': b'  115 |                                     double cb[4], \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * A, CvMat * b);\n'}
+[3.930629] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.930699] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:115:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.930767] (orb_slam2_stereo) StderrLine: {'line': b'  115 |                                     double cb[4], CvMat * A, \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * b);\n'}
+[3.930835] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.967869] (-) TimerEvent: {}
+[4.015286] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM2::PnPsolver::choose_control_points()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.020070] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:388:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.020497] (orb_slam2_stereo) StderrLine: {'line': b'  388 |   \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * PW0 = cvCreateMat(number_of_correspondences, 3, CV_64F);\n'}
+[4.020659] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.034186] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:388:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPW0\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.034691] (orb_slam2_stereo) StderrLine: {'line': b'  388 |   CvMat * \x1b[01;31m\x1b[KPW0\x1b[m\x1b[K = cvCreateMat(number_of_correspondences, 3, CV_64F);\n'}
+[4.034843] (orb_slam2_stereo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.068291] (-) TimerEvent: {}
+[4.069278] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:388:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvCreateMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.069662] (orb_slam2_stereo) StderrLine: {'line': b'  388 |   CvMat * PW0 = \x1b[01;31m\x1b[KcvCreateMat\x1b[m\x1b[K(number_of_correspondences, 3, CV_64F);\n'}
+[4.069793] (orb_slam2_stereo) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.069872] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:391:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KPW0tPW0\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.069947] (orb_slam2_stereo) StderrLine: {'line': b'  391 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KPW0tPW0\x1b[m\x1b[K = cvMat(3, 3, CV_64F, pw0tpw0);\n'}
+[4.070092] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[4.070184] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.070263] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:392:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KDC\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.070338] (orb_slam2_stereo) StderrLine: {'line': b'  392 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KDC\x1b[m\x1b[K      = cvMat(3, 1, CV_64F, dc);\n'}
+[4.070409] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[4.070477] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.070545] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:393:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KUCt\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.070617] (orb_slam2_stereo) StderrLine: {'line': b'  393 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KUCt\x1b[m\x1b[K     = cvMat(3, 3, CV_64F, uct);\n'}
+[4.070687] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[4.070756] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.095987] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:399:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPW0tPW0\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpw0tpw0\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.096577] (orb_slam2_stereo) StderrLine: {'line': b'  399 |   cvMulTransposed(PW0, &\x1b[01;31m\x1b[KPW0tPW0\x1b[m\x1b[K, 1);\n'}
+[4.096735] (orb_slam2_stereo) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.096867] (orb_slam2_stereo) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kpw0tpw0\x1b[m\x1b[K\n'}
+[4.136614] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:399:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvMulTransposed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.136988] (orb_slam2_stereo) StderrLine: {'line': b'  399 |   \x1b[01;31m\x1b[KcvMulTransposed\x1b[m\x1b[K(PW0, &PW0tPW0, 1);\n'}
+[4.137172] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.158773] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:400:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDC\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdc\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.159178] (orb_slam2_stereo) StderrLine: {'line': b'  400 |   cvSVD(&PW0tPW0, &\x1b[01;31m\x1b[KDC\x1b[m\x1b[K, &UCt, 0, CV_SVD_MODIFY_A | CV_SVD_U_T);\n'}
+[4.159375] (orb_slam2_stereo) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.159479] (orb_slam2_stereo) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Kdc\x1b[m\x1b[K\n'}
+[4.169260] (-) TimerEvent: {}
+[4.173509] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:400:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KUCt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kuct\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.174002] (orb_slam2_stereo) StderrLine: {'line': b'  400 |   cvSVD(&PW0tPW0, &DC, &\x1b[01;31m\x1b[KUCt\x1b[m\x1b[K, 0, CV_SVD_MODIFY_A | CV_SVD_U_T);\n'}
+[4.174186] (orb_slam2_stereo) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.174309] (orb_slam2_stereo) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kuct\x1b[m\x1b[K\n'}
+[4.216988] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:400:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_SVD_MODIFY_A\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KCV_HAL_SVD_MODIFY_A\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.217344] (orb_slam2_stereo) StderrLine: {'line': b'  400 |   cvSVD(&PW0tPW0, &DC, &UCt, 0, \x1b[01;31m\x1b[KCV_SVD_MODIFY_A\x1b[m\x1b[K | CV_SVD_U_T);\n'}
+[4.217434] (orb_slam2_stereo) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.217509] (orb_slam2_stereo) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[KCV_HAL_SVD_MODIFY_A\x1b[m\x1b[K\n'}
+[4.247851] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:400:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_SVD_U_T\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.248364] (orb_slam2_stereo) StderrLine: {'line': b'  400 |   cvSVD(&PW0tPW0, &DC, &UCt, 0, CV_SVD_MODIFY_A | \x1b[01;31m\x1b[KCV_SVD_U_T\x1b[m\x1b[K);\n'}
+[4.248492] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.269219] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:400:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvSVD\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.269705] (-) TimerEvent: {}
+[4.270041] (orb_slam2_stereo) StderrLine: {'line': b'  400 |   \x1b[01;31m\x1b[KcvSVD\x1b[m\x1b[K(&PW0tPW0, &DC, &UCt, 0, CV_SVD_MODIFY_A | CV_SVD_U_T);\n'}
+[4.270275] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.308583] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:402:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvReleaseMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.309303] (orb_slam2_stereo) StderrLine: {'line': b'  402 |   \x1b[01;31m\x1b[KcvReleaseMat\x1b[m\x1b[K(&PW0);\n'}
+[4.309504] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.309606] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:390:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpw0tpw0\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.309711] (orb_slam2_stereo) StderrLine: {'line': b'  390 |   double \x1b[01;35m\x1b[Kpw0tpw0\x1b[m\x1b[K[3 * 3], dc[3], uct[3 * 3];\n'}
+[4.309785] (orb_slam2_stereo) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.339981] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM2::PnPsolver::compute_barycentric_coordinates()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.340376] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:414:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.340520] (orb_slam2_stereo) StderrLine: {'line': b'  414 |   \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K CC     = cvMat(3, 3, CV_64F, cc);\n'}
+[4.340608] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.340682] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:415:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KCC_inv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.340754] (orb_slam2_stereo) StderrLine: {'line': b'  415 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KCC_inv\x1b[m\x1b[K = cvMat(3, 3, CV_64F, cc_inv);\n'}
+[4.340822] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[4.340890] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.366587] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:421:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCC\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcc\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.366972] (orb_slam2_stereo) StderrLine: {'line': b'  421 |   cvInvert(&\x1b[01;31m\x1b[KCC\x1b[m\x1b[K, &CC_inv, CV_SVD);\n'}
+[4.367103] (orb_slam2_stereo) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.367188] (orb_slam2_stereo) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kcc\x1b[m\x1b[K\n'}
+[4.370096] (-) TimerEvent: {}
+[4.391862] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:421:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCC_inv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcc_inv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.392259] (orb_slam2_stereo) StderrLine: {'line': b'  421 |   cvInvert(&CC, &\x1b[01;31m\x1b[KCC_inv\x1b[m\x1b[K, CV_SVD);\n'}
+[4.392402] (orb_slam2_stereo) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.392497] (orb_slam2_stereo) StderrLine: {'line': b'      |                  \x1b[32m\x1b[Kcc_inv\x1b[m\x1b[K\n'}
+[4.415912] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:421:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_SVD\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KCV_AVX\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.416316] (orb_slam2_stereo) StderrLine: {'line': b'  421 |   cvInvert(&CC, &CC_inv, \x1b[01;31m\x1b[KCV_SVD\x1b[m\x1b[K);\n'}
+[4.416426] (orb_slam2_stereo) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.416533] (orb_slam2_stereo) StderrLine: {'line': b'      |                          \x1b[32m\x1b[KCV_AVX\x1b[m\x1b[K\n'}
+[4.439326] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:421:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvInvert\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.439731] (orb_slam2_stereo) StderrLine: {'line': b'  421 |   \x1b[01;31m\x1b[KcvInvert\x1b[m\x1b[K(&CC, &CC_inv, CV_SVD);\n'}
+[4.440195] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.440343] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K At global scope:\n'}
+[4.440447] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:436:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Kfill_M\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[4.440528] (orb_slam2_stereo) StderrLine: {'line': b'  436 | void \x1b[01;31m\x1b[KPnPsolver\x1b[m\x1b[K::fill_M(CvMat * M,\n'}
+[4.440619] (orb_slam2_stereo) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.451400] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:436:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.451780] (orb_slam2_stereo) StderrLine: {'line': b'  436 | void PnPsolver::fill_M(\x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * M,\n'}
+[4.451889] (orb_slam2_stereo) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.465084] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:436:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KM\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.465778] (orb_slam2_stereo) StderrLine: {'line': b'  436 | void PnPsolver::fill_M(CvMat * \x1b[01;31m\x1b[KM\x1b[m\x1b[K,\n'}
+[4.465956] (orb_slam2_stereo) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.466147] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:437:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.466314] (orb_slam2_stereo) StderrLine: {'line': b'  437 |                   \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K int row, const double * as, const double u, const double v)\n'}
+[4.466407] (orb_slam2_stereo) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.466523] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:437:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.466640] (orb_slam2_stereo) StderrLine: {'line': b'  437 |                   const int row, \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K double * as, const double u, const double v)\n'}
+[4.466710] (orb_slam2_stereo) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.466774] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:437:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.466842] (orb_slam2_stereo) StderrLine: {'line': b'  437 |                   const int row, const double * as, \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K double u, const double v)\n'}
+[4.466937] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.467006] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:437:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.467097] (orb_slam2_stereo) StderrLine: {'line': b'  437 |                   const int row, const double * as, const double u, \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K double v)\n'}
+[4.467166] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.470576] (-) TimerEvent: {}
+[4.489617] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble ORB_SLAM2::PnPsolver::compute_pose(double (*)[3], double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.490119] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:482:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.490280] (orb_slam2_stereo) StderrLine: {'line': b'  482 |   \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * M = cvCreateMat(2 * number_of_correspondences, 12, CV_64F);\n'}
+[4.490373] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.508521] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:482:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KM\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.508945] (orb_slam2_stereo) StderrLine: {'line': b'  482 |   CvMat * \x1b[01;31m\x1b[KM\x1b[m\x1b[K = cvCreateMat(2 * number_of_correspondences, 12, CV_64F);\n'}
+[4.509131] (orb_slam2_stereo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.541832] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:482:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvCreateMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.542536] (orb_slam2_stereo) StderrLine: {'line': b'  482 |   CvMat * M = \x1b[01;31m\x1b[KcvCreateMat\x1b[m\x1b[K(2 * number_of_correspondences, 12, CV_64F);\n'}
+[4.542666] (orb_slam2_stereo) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.542742] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:488:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KMtM\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.542832] (orb_slam2_stereo) StderrLine: {'line': b'  488 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KMtM\x1b[m\x1b[K = cvMat(12, 12, CV_64F, mtm);\n'}
+[4.542928] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[4.542996] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.543073] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:489:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.543139] (orb_slam2_stereo) StderrLine: {'line': b'  489 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KD\x1b[m\x1b[K   = cvMat(12,  1, CV_64F, d);\n'}
+[4.543204] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[4.543296] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.543391] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:490:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KUt\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.543465] (orb_slam2_stereo) StderrLine: {'line': b'  490 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KUt\x1b[m\x1b[K  = cvMat(12, 12, CV_64F, ut);\n'}
+[4.543534] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[4.543631] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.565308] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:492:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMtM\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmtm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.565741] (orb_slam2_stereo) StderrLine: {'line': b'  492 |   cvMulTransposed(M, &\x1b[01;31m\x1b[KMtM\x1b[m\x1b[K, 1);\n'}
+[4.565870] (orb_slam2_stereo) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.565952] (orb_slam2_stereo) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Kmtm\x1b[m\x1b[K\n'}
+[4.571187] (-) TimerEvent: {}
+[4.605795] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:492:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvMulTransposed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.606206] (orb_slam2_stereo) StderrLine: {'line': b'  492 |   \x1b[01;31m\x1b[KcvMulTransposed\x1b[m\x1b[K(M, &MtM, 1);\n'}
+[4.606394] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.623645] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:493:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KD\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.624077] (orb_slam2_stereo) StderrLine: {'line': b'  493 |   cvSVD(&MtM, &\x1b[01;31m\x1b[KD\x1b[m\x1b[K, &Ut, 0, CV_SVD_MODIFY_A | CV_SVD_U_T);\n'}
+[4.624207] (orb_slam2_stereo) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.651204] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:493:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KUt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kut\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.651897] (orb_slam2_stereo) StderrLine: {'line': b'  493 |   cvSVD(&MtM, &D, &\x1b[01;31m\x1b[KUt\x1b[m\x1b[K, 0, CV_SVD_MODIFY_A | CV_SVD_U_T);\n'}
+[4.652207] (orb_slam2_stereo) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.652351] (orb_slam2_stereo) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Kut\x1b[m\x1b[K\n'}
+[4.671540] (-) TimerEvent: {}
+[4.696814] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:493:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_SVD_MODIFY_A\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KCV_HAL_SVD_MODIFY_A\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.697258] (orb_slam2_stereo) StderrLine: {'line': b'  493 |   cvSVD(&MtM, &D, &Ut, 0, \x1b[01;31m\x1b[KCV_SVD_MODIFY_A\x1b[m\x1b[K | CV_SVD_U_T);\n'}
+[4.697528] (orb_slam2_stereo) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.697667] (orb_slam2_stereo) StderrLine: {'line': b'      |                           \x1b[32m\x1b[KCV_HAL_SVD_MODIFY_A\x1b[m\x1b[K\n'}
+[4.736460] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:493:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_SVD_U_T\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.736962] (orb_slam2_stereo) StderrLine: {'line': b'  493 |   cvSVD(&MtM, &D, &Ut, 0, CV_SVD_MODIFY_A | \x1b[01;31m\x1b[KCV_SVD_U_T\x1b[m\x1b[K);\n'}
+[4.737108] (orb_slam2_stereo) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.755759] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:493:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvSVD\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.756250] (orb_slam2_stereo) StderrLine: {'line': b'  493 |   \x1b[01;31m\x1b[KcvSVD\x1b[m\x1b[K(&MtM, &D, &Ut, 0, CV_SVD_MODIFY_A | CV_SVD_U_T);\n'}
+[4.756437] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.773041] (-) TimerEvent: {}
+[4.791056] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:494:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvReleaseMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.791492] (orb_slam2_stereo) StderrLine: {'line': b'  494 |   \x1b[01;31m\x1b[KcvReleaseMat\x1b[m\x1b[K(&M);\n'}
+[4.791656] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.792424] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:497:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KL_6x10\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.792657] (orb_slam2_stereo) StderrLine: {'line': b'  497 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KL_6x10\x1b[m\x1b[K = cvMat(6, 10, CV_64F, l_6x10);\n'}
+[4.792870] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[4.792973] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.793051] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:498:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KRho\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.793158] (orb_slam2_stereo) StderrLine: {'line': b'  498 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KRho\x1b[m\x1b[K    = cvMat(6,  1, CV_64F, rho);\n'}
+[4.793259] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[4.793334] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.813376] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:506:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KL_6x10\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kl_6x10\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.814058] (orb_slam2_stereo) StderrLine: {'line': b'  506 |   find_betas_approx_1(&\x1b[01;31m\x1b[KL_6x10\x1b[m\x1b[K, &Rho, Betas[1]);\n'}
+[4.814476] (orb_slam2_stereo) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.814632] (orb_slam2_stereo) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Kl_6x10\x1b[m\x1b[K\n'}
+[4.836767] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:506:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRho\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krho\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.837358] (orb_slam2_stereo) StderrLine: {'line': b'  506 |   find_betas_approx_1(&L_6x10, &\x1b[01;31m\x1b[KRho\x1b[m\x1b[K, Betas[1]);\n'}
+[4.837635] (orb_slam2_stereo) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.837743] (orb_slam2_stereo) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[Krho\x1b[m\x1b[K\n'}
+[4.838949] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:487:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kmtm\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.839363] (orb_slam2_stereo) StderrLine: {'line': b'  487 |   double \x1b[01;35m\x1b[Kmtm\x1b[m\x1b[K[12 * 12], d[12], ut[12 * 12];\n'}
+[4.839478] (orb_slam2_stereo) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.839566] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:487:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kd\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.839677] (orb_slam2_stereo) StderrLine: {'line': b'  487 |   double mtm[12 * 12], \x1b[01;35m\x1b[Kd\x1b[m\x1b[K[12], ut[12 * 12];\n'}
+[4.839755] (orb_slam2_stereo) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.867572] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM2::PnPsolver::estimate_R_and_t(double (*)[3], double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.868064] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:591:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.868223] (orb_slam2_stereo) StderrLine: {'line': b'  591 |   \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K ABt   = cvMat(3, 3, CV_64F, abt);\n'}
+[4.868325] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.872807] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:592:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KABt_D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.873223] (-) TimerEvent: {}
+[4.873467] (orb_slam2_stereo) StderrLine: {'line': b'  592 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KABt_D\x1b[m\x1b[K = cvMat(3, 1, CV_64F, abt_d);\n'}
+[4.873668] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[4.873758] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.873832] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:593:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KABt_U\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.873905] (orb_slam2_stereo) StderrLine: {'line': b'  593 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KABt_U\x1b[m\x1b[K = cvMat(3, 3, CV_64F, abt_u);\n'}
+[4.873974] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[4.874041] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.874105] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:594:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KABt_V\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.874218] (orb_slam2_stereo) StderrLine: {'line': b'  594 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KABt_V\x1b[m\x1b[K = cvMat(3, 3, CV_64F, abt_v);\n'}
+[4.874290] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[4.874355] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.895009] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:596:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KABt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kabt\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.895393] (orb_slam2_stereo) StderrLine: {'line': b'  596 |   cvSetZero(&\x1b[01;31m\x1b[KABt\x1b[m\x1b[K);\n'}
+[4.895520] (orb_slam2_stereo) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.895606] (orb_slam2_stereo) StderrLine: {'line': b'      |              \x1b[32m\x1b[Kabt\x1b[m\x1b[K\n'}
+[4.918934] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:596:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvSetZero\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.919575] (orb_slam2_stereo) StderrLine: {'line': b'  596 |   \x1b[01;31m\x1b[KcvSetZero\x1b[m\x1b[K(&ABt);\n'}
+[4.919957] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.944094] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:608:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KABt_D\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.944857] (orb_slam2_stereo) StderrLine: {'line': b'  608 |   cvSVD(&ABt, &\x1b[01;31m\x1b[KABt_D\x1b[m\x1b[K, &ABt_U, &ABt_V, CV_SVD_MODIFY_A);\n'}
+[4.945223] (orb_slam2_stereo) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.968821] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:608:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KABt_U\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.969287] (orb_slam2_stereo) StderrLine: {'line': b'  608 |   cvSVD(&ABt, &ABt_D, &\x1b[01;31m\x1b[KABt_U\x1b[m\x1b[K, &ABt_V, CV_SVD_MODIFY_A);\n'}
+[4.969508] (orb_slam2_stereo) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.973749] (-) TimerEvent: {}
+[4.988504] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:608:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KABt_V\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.988917] (orb_slam2_stereo) StderrLine: {'line': b'  608 |   cvSVD(&ABt, &ABt_D, &ABt_U, &\x1b[01;31m\x1b[KABt_V\x1b[m\x1b[K, CV_SVD_MODIFY_A);\n'}
+[4.989064] (orb_slam2_stereo) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.038694] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:608:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_SVD_MODIFY_A\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KCV_HAL_SVD_MODIFY_A\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.039118] (orb_slam2_stereo) StderrLine: {'line': b'  608 |   cvSVD(&ABt, &ABt_D, &ABt_U, &ABt_V, \x1b[01;31m\x1b[KCV_SVD_MODIFY_A\x1b[m\x1b[K);\n'}
+[5.039248] (orb_slam2_stereo) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.039325] (orb_slam2_stereo) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[KCV_HAL_SVD_MODIFY_A\x1b[m\x1b[K\n'}
+[5.070880] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:608:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvSVD\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.071319] (orb_slam2_stereo) StderrLine: {'line': b'  608 |   \x1b[01;31m\x1b[KcvSVD\x1b[m\x1b[K(&ABt, &ABt_D, &ABt_U, &ABt_V, CV_SVD_MODIFY_A);\n'}
+[5.071809] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.072000] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:590:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kabt_d\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.072112] (orb_slam2_stereo) StderrLine: {'line': b'  590 |   double abt[3 * 3], \x1b[01;35m\x1b[Kabt_d\x1b[m\x1b[K[3], abt_u[3 * 3], abt_v[3 * 3];\n'}
+[5.072217] (orb_slam2_stereo) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.074060] (-) TimerEvent: {}
+[5.085403] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K At global scope:\n'}
+[5.085887] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:667:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.086072] (orb_slam2_stereo) StderrLine: {'line': b'  667 | void PnPsolver::find_betas_approx_1(const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * L_6x10, const CvMat * Rho,\n'}
+[5.086190] (orb_slam2_stereo) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.098427] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:667:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.098866] (orb_slam2_stereo) StderrLine: {'line': b'  667 | void PnPsolver::find_betas_approx_1(const CvMat * L_6x10, const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * Rho,\n'}
+[5.099029] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.127697] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM2::PnPsolver::find_betas_approx_1(const int*, const int*, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.128262] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:671:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.128427] (orb_slam2_stereo) StderrLine: {'line': b'  671 |   \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K L_6x4 = cvMat(6, 4, CV_64F, l_6x4);\n'}
+[5.128535] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.128608] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:672:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KB4\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.128679] (orb_slam2_stereo) StderrLine: {'line': b'  672 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KB4\x1b[m\x1b[K    = cvMat(4, 1, CV_64F, b4);\n'}
+[5.128805] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[5.128893] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.160638] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:675:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KL_6x4\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kl_6x4\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.161117] (orb_slam2_stereo) StderrLine: {'line': b'  675 |     cvmSet(&\x1b[01;31m\x1b[KL_6x4\x1b[m\x1b[K, i, 0, cvmGet(L_6x10, i, 0));\n'}
+[5.161411] (orb_slam2_stereo) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.161537] (orb_slam2_stereo) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kl_6x4\x1b[m\x1b[K\n'}
+[5.175399] (-) TimerEvent: {}
+[5.197139] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:675:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvmGet\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.197669] (orb_slam2_stereo) StderrLine: {'line': b'  675 |     cvmSet(&L_6x4, i, 0, \x1b[01;31m\x1b[KcvmGet\x1b[m\x1b[K(L_6x10, i, 0));\n'}
+[5.197861] (orb_slam2_stereo) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.224942] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:675:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvmSet\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.225638] (orb_slam2_stereo) StderrLine: {'line': b'  675 |     \x1b[01;31m\x1b[KcvmSet\x1b[m\x1b[K(&L_6x4, i, 0, cvmGet(L_6x10, i, 0));\n'}
+[5.225963] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.253805] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:681:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KL_6x4\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kl_6x4\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.254292] (orb_slam2_stereo) StderrLine: {'line': b'  681 |   cvSolve(&\x1b[01;31m\x1b[KL_6x4\x1b[m\x1b[K, Rho, &B4, CV_SVD);\n'}
+[5.254439] (orb_slam2_stereo) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.254571] (orb_slam2_stereo) StderrLine: {'line': b'      |            \x1b[32m\x1b[Kl_6x4\x1b[m\x1b[K\n'}
+[5.277362] (-) TimerEvent: {}
+[5.278172] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:681:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KB4\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kb4\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.278619] (orb_slam2_stereo) StderrLine: {'line': b'  681 |   cvSolve(&L_6x4, Rho, &\x1b[01;31m\x1b[KB4\x1b[m\x1b[K, CV_SVD);\n'}
+[5.278852] (orb_slam2_stereo) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.279003] (orb_slam2_stereo) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kb4\x1b[m\x1b[K\n'}
+[5.311931] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:681:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_SVD\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KCV_AVX\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.312420] (orb_slam2_stereo) StderrLine: {'line': b'  681 |   cvSolve(&L_6x4, Rho, &B4, \x1b[01;31m\x1b[KCV_SVD\x1b[m\x1b[K);\n'}
+[5.312539] (orb_slam2_stereo) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.312617] (orb_slam2_stereo) StderrLine: {'line': b'      |                             \x1b[32m\x1b[KCV_AVX\x1b[m\x1b[K\n'}
+[5.344400] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:681:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvSolve\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.345084] (orb_slam2_stereo) StderrLine: {'line': b'  681 |   \x1b[01;31m\x1b[KcvSolve\x1b[m\x1b[K(&L_6x4, Rho, &B4, CV_SVD);\n'}
+[5.345520] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.345682] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:670:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kl_6x4\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.345849] (orb_slam2_stereo) StderrLine: {'line': b'  670 |   double \x1b[01;35m\x1b[Kl_6x4\x1b[m\x1b[K[6 * 4], b4[4];\n'}
+[5.345984] (orb_slam2_stereo) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.350707] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K At global scope:\n'}
+[5.351215] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:699:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.351502] (orb_slam2_stereo) StderrLine: {'line': b'  699 | void PnPsolver::find_betas_approx_2(const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * L_6x10, const CvMat * Rho,\n'}
+[5.351649] (orb_slam2_stereo) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.358403] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:699:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.358902] (orb_slam2_stereo) StderrLine: {'line': b'  699 | void PnPsolver::find_betas_approx_2(const CvMat * L_6x10, const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * Rho,\n'}
+[5.359090] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.379108] (-) TimerEvent: {}
+[5.383600] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM2::PnPsolver::find_betas_approx_2(const int*, const int*, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.384065] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:703:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.384226] (orb_slam2_stereo) StderrLine: {'line': b'  703 |   \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K L_6x3  = cvMat(6, 3, CV_64F, l_6x3);\n'}
+[5.384352] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.390033] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:704:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KB3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.391561] (orb_slam2_stereo) StderrLine: {'line': b'  704 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KB3\x1b[m\x1b[K     = cvMat(3, 1, CV_64F, b3);\n'}
+[5.391877] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[5.391995] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.416906] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:707:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KL_6x3\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kl_6x3\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.417462] (orb_slam2_stereo) StderrLine: {'line': b'  707 |     cvmSet(&\x1b[01;31m\x1b[KL_6x3\x1b[m\x1b[K, i, 0, cvmGet(L_6x10, i, 0));\n'}
+[5.417708] (orb_slam2_stereo) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.417808] (orb_slam2_stereo) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kl_6x3\x1b[m\x1b[K\n'}
+[5.471677] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:707:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvmGet\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.472281] (orb_slam2_stereo) StderrLine: {'line': b'  707 |     cvmSet(&L_6x3, i, 0, \x1b[01;31m\x1b[KcvmGet\x1b[m\x1b[K(L_6x10, i, 0));\n'}
+[5.472445] (orb_slam2_stereo) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.479837] (-) TimerEvent: {}
+[5.539588] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:707:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvmSet\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.540022] (orb_slam2_stereo) StderrLine: {'line': b'  707 |     \x1b[01;31m\x1b[KcvmSet\x1b[m\x1b[K(&L_6x3, i, 0, cvmGet(L_6x10, i, 0));\n'}
+[5.540151] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.580280] (-) TimerEvent: {}
+[5.581891] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:712:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KL_6x3\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kl_6x3\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.582461] (orb_slam2_stereo) StderrLine: {'line': b'  712 |   cvSolve(&\x1b[01;31m\x1b[KL_6x3\x1b[m\x1b[K, Rho, &B3, CV_SVD);\n'}
+[5.582691] (orb_slam2_stereo) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.582831] (orb_slam2_stereo) StderrLine: {'line': b'      |            \x1b[32m\x1b[Kl_6x3\x1b[m\x1b[K\n'}
+[5.610534] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:712:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KB3\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kb3\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.610936] (orb_slam2_stereo) StderrLine: {'line': b'  712 |   cvSolve(&L_6x3, Rho, &\x1b[01;31m\x1b[KB3\x1b[m\x1b[K, CV_SVD);\n'}
+[5.611107] (orb_slam2_stereo) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.611204] (orb_slam2_stereo) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kb3\x1b[m\x1b[K\n'}
+[5.642305] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:712:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_SVD\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KCV_AVX\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.642751] (orb_slam2_stereo) StderrLine: {'line': b'  712 |   cvSolve(&L_6x3, Rho, &B3, \x1b[01;31m\x1b[KCV_SVD\x1b[m\x1b[K);\n'}
+[5.642953] (orb_slam2_stereo) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.643096] (orb_slam2_stereo) StderrLine: {'line': b'      |                             \x1b[32m\x1b[KCV_AVX\x1b[m\x1b[K\n'}
+[5.668475] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:712:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvSolve\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.668891] (orb_slam2_stereo) StderrLine: {'line': b'  712 |   \x1b[01;31m\x1b[KcvSolve\x1b[m\x1b[K(&L_6x3, Rho, &B3, CV_SVD);\n'}
+[5.669079] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.670383] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:702:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kl_6x3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.670691] (orb_slam2_stereo) StderrLine: {'line': b'  702 |   double \x1b[01;35m\x1b[Kl_6x3\x1b[m\x1b[K[6 * 3], b3[3];\n'}
+[5.670836] (orb_slam2_stereo) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.677548] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K At global scope:\n'}
+[5.678320] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:731:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.678587] (orb_slam2_stereo) StderrLine: {'line': b'  731 | void PnPsolver::find_betas_approx_3(const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * L_6x10, const CvMat * Rho,\n'}
+[5.678748] (orb_slam2_stereo) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.680572] (-) TimerEvent: {}
+[5.683864] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:731:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.684261] (orb_slam2_stereo) StderrLine: {'line': b'  731 | void PnPsolver::find_betas_approx_3(const CvMat * L_6x10, const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * Rho,\n'}
+[5.684426] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.722629] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM2::PnPsolver::find_betas_approx_3(const int*, const int*, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.723082] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:735:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.723222] (orb_slam2_stereo) StderrLine: {'line': b'  735 |   \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K L_6x5 = cvMat(6, 5, CV_64F, l_6x5);\n'}
+[5.723308] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.723382] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:736:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KB5\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.723454] (orb_slam2_stereo) StderrLine: {'line': b'  736 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KB5\x1b[m\x1b[K    = cvMat(5, 1, CV_64F, b5);\n'}
+[5.723526] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[5.723593] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.745216] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:739:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KL_6x5\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kl_6x5\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.745644] (orb_slam2_stereo) StderrLine: {'line': b'  739 |     cvmSet(&\x1b[01;31m\x1b[KL_6x5\x1b[m\x1b[K, i, 0, cvmGet(L_6x10, i, 0));\n'}
+[5.745764] (orb_slam2_stereo) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.745840] (orb_slam2_stereo) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kl_6x5\x1b[m\x1b[K\n'}
+[5.777664] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:739:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvmGet\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.778139] (orb_slam2_stereo) StderrLine: {'line': b'  739 |     cvmSet(&L_6x5, i, 0, \x1b[01;31m\x1b[KcvmGet\x1b[m\x1b[K(L_6x10, i, 0));\n'}
+[5.778285] (orb_slam2_stereo) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.780935] (-) TimerEvent: {}
+[5.821367] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:739:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvmSet\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.821848] (orb_slam2_stereo) StderrLine: {'line': b'  739 |     \x1b[01;31m\x1b[KcvmSet\x1b[m\x1b[K(&L_6x5, i, 0, cvmGet(L_6x10, i, 0));\n'}
+[5.821991] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.856634] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:746:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KL_6x5\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kl_6x5\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.857015] (orb_slam2_stereo) StderrLine: {'line': b'  746 |   cvSolve(&\x1b[01;31m\x1b[KL_6x5\x1b[m\x1b[K, Rho, &B5, CV_SVD);\n'}
+[5.857121] (orb_slam2_stereo) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.857231] (orb_slam2_stereo) StderrLine: {'line': b'      |            \x1b[32m\x1b[Kl_6x5\x1b[m\x1b[K\n'}
+[5.883128] (-) TimerEvent: {}
+[5.897387] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:746:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KB5\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kb5\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.897815] (orb_slam2_stereo) StderrLine: {'line': b'  746 |   cvSolve(&L_6x5, Rho, &\x1b[01;31m\x1b[KB5\x1b[m\x1b[K, CV_SVD);\n'}
+[5.898015] (orb_slam2_stereo) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.898115] (orb_slam2_stereo) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kb5\x1b[m\x1b[K\n'}
+[5.921317] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:746:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_SVD\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KCV_AVX\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.921775] (orb_slam2_stereo) StderrLine: {'line': b'  746 |   cvSolve(&L_6x5, Rho, &B5, \x1b[01;31m\x1b[KCV_SVD\x1b[m\x1b[K);\n'}
+[5.921918] (orb_slam2_stereo) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.922026] (orb_slam2_stereo) StderrLine: {'line': b'      |                             \x1b[32m\x1b[KCV_AVX\x1b[m\x1b[K\n'}
+[5.981673] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:746:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvSolve\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.982280] (orb_slam2_stereo) StderrLine: {'line': b'  746 |   \x1b[01;31m\x1b[KcvSolve\x1b[m\x1b[K(&L_6x5, Rho, &B5, CV_SVD);\n'}
+[5.982435] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.982561] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:734:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kl_6x5\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.982805] (orb_slam2_stereo) StderrLine: {'line': b'  734 |   double \x1b[01;35m\x1b[Kl_6x5\x1b[m\x1b[K[6 * 5], b5[5];\n'}
+[5.982937] (orb_slam2_stereo) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.983257] (-) TimerEvent: {}
+[5.989185] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K At global scope:\n'}
+[5.989730] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:813:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.989931] (orb_slam2_stereo) StderrLine: {'line': b'  813 |                                         double betas[4], \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * A, CvMat * b)\n'}
+[5.990047] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.990123] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:813:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.990195] (orb_slam2_stereo) StderrLine: {'line': b'  813 |                                         double betas[4], CvMat * A, \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * b)\n'}
+[5.990261] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.995017] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM2::PnPsolver::compute_A_and_b_gauss_newton(const double*, const double*, double*, int*, int*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.995491] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:817:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K* A\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.995703] (orb_slam2_stereo) StderrLine: {'line': b'  817 |     double * rowA = A->\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K.db + i * 4;\n'}
+[5.995805] (orb_slam2_stereo) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.034401] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:824:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvmSet\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.034874] (orb_slam2_stereo) StderrLine: {'line': b'  824 |     \x1b[01;31m\x1b[KcvmSet\x1b[m\x1b[K(b, i, 0, rho[i] -\n'}
+[6.035134] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.036717] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K At global scope:\n'}
+[6.037033] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:840:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.037166] (orb_slam2_stereo) StderrLine: {'line': b'  840 | void PnPsolver::gauss_newton(const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * L_6x10, const CvMat * Rho,\n'}
+[6.037310] (orb_slam2_stereo) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.041196] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:840:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.041654] (orb_slam2_stereo) StderrLine: {'line': b'  840 | void PnPsolver::gauss_newton(const CvMat * L_6x10, const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * Rho,\n'}
+[6.041782] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.076667] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM2::PnPsolver::gauss_newton(const int*, const int*, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.077533] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:846:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.077750] (orb_slam2_stereo) StderrLine: {'line': b'  846 |   \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K A = cvMat(6, 4, CV_64F, a);\n'}
+[6.077864] (orb_slam2_stereo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.077943] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:847:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.078018] (orb_slam2_stereo) StderrLine: {'line': b'  847 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KB\x1b[m\x1b[K = cvMat(6, 1, CV_64F, b);\n'}
+[6.078087] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[6.078157] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[6.078222] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:848:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KX\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.078288] (orb_slam2_stereo) StderrLine: {'line': b'  848 |   CvMat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KX\x1b[m\x1b[K = cvMat(4, 1, CV_64F, x);\n'}
+[6.078354] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[6.078418] (orb_slam2_stereo) StderrLine: {'line': b'      |        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[6.078481] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:851:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K* L_6x10\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.078552] (orb_slam2_stereo) StderrLine: {'line': b'  851 |     compute_A_and_b_gauss_newton(L_6x10->\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K.db, Rho->data.db,\n'}
+[6.078617] (orb_slam2_stereo) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.078682] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:851:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K* Rho\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.078810] (orb_slam2_stereo) StderrLine: {'line': b'  851 |     compute_A_and_b_gauss_newton(L_6x10->data.db, Rho->\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K.db,\n'}
+[6.078882] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.083869] (-) TimerEvent: {}
+[6.120555] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:852:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KA\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.121119] (orb_slam2_stereo) StderrLine: {'line': b'  852 |                                  betas, &\x1b[01;31m\x1b[KA\x1b[m\x1b[K, &B);\n'}
+[6.121427] (orb_slam2_stereo) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.154637] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:852:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KB\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.155251] (orb_slam2_stereo) StderrLine: {'line': b'  852 |                                  betas, &A, &\x1b[01;31m\x1b[KB\x1b[m\x1b[K);\n'}
+[6.155558] (orb_slam2_stereo) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.186425] (-) TimerEvent: {}
+[6.201575] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:853:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.202030] (orb_slam2_stereo) StderrLine: {'line': b'  853 |     qr_solve(&A, &B, &\x1b[01;31m\x1b[KX\x1b[m\x1b[K);\n'}
+[6.202242] (orb_slam2_stereo) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.202371] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:845:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.202471] (orb_slam2_stereo) StderrLine: {'line': b'  845 |   double \x1b[01;35m\x1b[Ka\x1b[m\x1b[K[6*4], b[6], x[4];\n'}
+[6.202547] (orb_slam2_stereo) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.202614] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:845:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.202689] (orb_slam2_stereo) StderrLine: {'line': b'  845 |   double a[6*4], \x1b[01;35m\x1b[Kb\x1b[m\x1b[K[6], x[4];\n'}
+[6.202759] (orb_slam2_stereo) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.202861] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:\x1b[m\x1b[K At global scope:\n'}
+[6.202946] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:860:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Kqr_solve\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[6.203035] (orb_slam2_stereo) StderrLine: {'line': b'  860 | void \x1b[01;31m\x1b[KPnPsolver\x1b[m\x1b[K::qr_solve(CvMat * A, CvMat * b, CvMat * X)\n'}
+[6.203107] (orb_slam2_stereo) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.215285] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:860:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.215736] (orb_slam2_stereo) StderrLine: {'line': b'  860 | void PnPsolver::qr_solve(\x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * A, CvMat * b, CvMat * X)\n'}
+[6.215969] (orb_slam2_stereo) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.226236] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:860:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KA\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.226853] (orb_slam2_stereo) StderrLine: {'line': b'  860 | void PnPsolver::qr_solve(CvMat * \x1b[01;31m\x1b[KA\x1b[m\x1b[K, CvMat * b, CvMat * X)\n'}
+[6.227001] (orb_slam2_stereo) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.240281] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:860:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.240914] (orb_slam2_stereo) StderrLine: {'line': b'  860 | void PnPsolver::qr_solve(CvMat * A, \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * b, CvMat * X)\n'}
+[6.241208] (orb_slam2_stereo) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.254140] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:860:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.254775] (orb_slam2_stereo) StderrLine: {'line': b'  860 | void PnPsolver::qr_solve(CvMat * A, CvMat * \x1b[01;31m\x1b[Kb\x1b[m\x1b[K, CvMat * X)\n'}
+[6.255066] (orb_slam2_stereo) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.275822] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:860:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.276239] (orb_slam2_stereo) StderrLine: {'line': b'  860 | void PnPsolver::qr_solve(CvMat * A, CvMat * b, \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * X)\n'}
+[6.276394] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.287497] (-) TimerEvent: {}
+[6.294103] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:860:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.294535] (orb_slam2_stereo) StderrLine: {'line': b'  860 | void PnPsolver::qr_solve(CvMat * A, CvMat * b, CvMat * \x1b[01;31m\x1b[KX\x1b[m\x1b[K)\n'}
+[6.294749] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.387983] (-) TimerEvent: {}
+[6.489600] (-) TimerEvent: {}
+[6.590747] (-) TimerEvent: {}
+[6.693278] (-) TimerEvent: {}
+[6.794122] (-) TimerEvent: {}
+[6.895003] (-) TimerEvent: {}
+[6.999393] (-) TimerEvent: {}
+[7.101371] (-) TimerEvent: {}
+[7.203850] (-) TimerEvent: {}
+[7.305847] (-) TimerEvent: {}
+[7.406810] (-) TimerEvent: {}
+[7.508484] (-) TimerEvent: {}
+[7.611105] (-) TimerEvent: {}
+[7.712056] (-) TimerEvent: {}
+[7.813021] (-) TimerEvent: {}
+[7.913833] (-) TimerEvent: {}
+[8.017235] (-) TimerEvent: {}
+[8.119209] (-) TimerEvent: {}
+[8.191144] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:272: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/PnPsolver.cc.o] Error 1\n'}
+[8.219553] (-) TimerEvent: {}
+[8.320789] (-) TimerEvent: {}
+[8.428219] (-) TimerEvent: {}
+[8.530292] (-) TimerEvent: {}
+[8.631153] (-) TimerEvent: {}
+[8.731927] (-) TimerEvent: {}
+[8.832857] (-) TimerEvent: {}
+[8.933625] (-) TimerEvent: {}
+[9.035541] (-) TimerEvent: {}
+[9.140033] (-) TimerEvent: {}
+[9.246766] (-) TimerEvent: {}
+[9.348101] (-) TimerEvent: {}
+[9.455508] (-) TimerEvent: {}
+[9.556386] (-) TimerEvent: {}
+[9.660333] (-) TimerEvent: {}
+[9.761264] (-) TimerEvent: {}
+[9.865651] (-) TimerEvent: {}
+[9.974148] (-) TimerEvent: {}
+[10.082680] (-) TimerEvent: {}
+[10.191198] (-) TimerEvent: {}
+[10.199660] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/FrameDrawer.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat ORB_SLAM2::FrameDrawer::DrawFrame()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.200460] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/FrameDrawer.cc:75:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_GRAY2BGR\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_GRAY2BGR\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.201066] (orb_slam2_stereo) StderrLine: {'line': b'   75 |         cvtColor(im,im,\x1b[01;31m\x1b[KCOLOR_GRAY2BGR\x1b[m\x1b[K);\n'}
+[10.201203] (orb_slam2_stereo) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.201310] (orb_slam2_stereo) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Kcv::COLOR_GRAY2BGR\x1b[m\x1b[K\n'}
+[10.201383] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[10.201477] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBextractor.h:26\x1b[m\x1b[K,\n'}
+[10.201596] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.201663] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.201724] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Map.h:24\x1b[m\x1b[K,\n'}
+[10.201783] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.201844] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:26\x1b[m\x1b[K,\n'}
+[10.201905] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[10.201965] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.202037] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/FrameDrawer.cc:21\x1b[m\x1b[K:\n'}
+[10.202102] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:553:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv::COLOR_GRAY2BGR\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[10.202175] (orb_slam2_stereo) StderrLine: {'line': b'  553 |     \x1b[01;36m\x1b[KCOLOR_GRAY2BGR\x1b[m\x1b[K     = 8,\n'}
+[10.202237] (orb_slam2_stereo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.282431] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:34\x1b[m\x1b[K:\n'}
+[10.282769] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:96:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[10.282856] (orb_slam2_stereo) StderrLine: {'line': b'   96 |   void fill_M(\x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * M, const int row, const double * alphas, const double u, const double v);\n'}
+[10.282928] (orb_slam2_stereo) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.292182] (-) TimerEvent: {}
+[10.292791] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:102:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.293140] (orb_slam2_stereo) StderrLine: {'line': b'  102 |   void find_betas_approx_1(const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * L_6x10, const CvMat * Rho, double * betas);\n'}
+[10.293255] (orb_slam2_stereo) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.301473] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:102:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.301871] (orb_slam2_stereo) StderrLine: {'line': b'  102 |   void find_betas_approx_1(const CvMat * L_6x10, const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * Rho, double * betas);\n'}
+[10.301983] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.311331] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:103:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.311656] (orb_slam2_stereo) StderrLine: {'line': b'  103 |   void find_betas_approx_2(const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * L_6x10, const CvMat * Rho, double * betas);\n'}
+[10.311736] (orb_slam2_stereo) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.319957] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:103:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.320291] (orb_slam2_stereo) StderrLine: {'line': b'  103 |   void find_betas_approx_2(const CvMat * L_6x10, const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * Rho, double * betas);\n'}
+[10.320382] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.328610] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:104:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.328963] (orb_slam2_stereo) StderrLine: {'line': b'  104 |   void find_betas_approx_3(const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * L_6x10, const CvMat * Rho, double * betas);\n'}
+[10.329044] (orb_slam2_stereo) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.339571] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:104:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.339901] (orb_slam2_stereo) StderrLine: {'line': b'  104 |   void find_betas_approx_3(const CvMat * L_6x10, const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * Rho, double * betas);\n'}
+[10.339992] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.340060] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:105:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[10.340136] (orb_slam2_stereo) StderrLine: {'line': b'  105 |   void qr_solve(\x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * A, CvMat * b, CvMat * X);\n'}
+[10.340194] (orb_slam2_stereo) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.340249] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:105:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[10.340302] (orb_slam2_stereo) StderrLine: {'line': b'  105 |   void qr_solve(CvMat * A, \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * b, CvMat * X);\n'}
+[10.340355] (orb_slam2_stereo) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.340408] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:105:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[10.340460] (orb_slam2_stereo) StderrLine: {'line': b'  105 |   void qr_solve(CvMat * A, CvMat * b, \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * X);\n'}
+[10.340513] (orb_slam2_stereo) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.349111] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:113:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.349515] (orb_slam2_stereo) StderrLine: {'line': b'  113 |   void gauss_newton(const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * L_6x10, const CvMat * Rho, double current_betas[4]);\n'}
+[10.349636] (orb_slam2_stereo) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.359444] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:113:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.359718] (orb_slam2_stereo) StderrLine: {'line': b'  113 |   void gauss_newton(const CvMat * L_6x10, const \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * Rho, double current_betas[4]);\n'}
+[10.359775] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.359838] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:115:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[10.359885] (orb_slam2_stereo) StderrLine: {'line': b'  115 |                                     double cb[4], \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * A, CvMat * b);\n'}
+[10.359928] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.359984] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:115:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCvMat\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[10.360049] (orb_slam2_stereo) StderrLine: {'line': b'  115 |                                     double cb[4], CvMat * A, \x1b[01;31m\x1b[KCvMat\x1b[m\x1b[K * b);\n'}
+[10.360114] (orb_slam2_stereo) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.395127] (-) TimerEvent: {}
+[10.440720] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat ORB_SLAM2::Tracking::GrabImageStereo(const cv::Mat&, const cv::Mat&, const double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.440995] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:176:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.441054] (orb_slam2_stereo) StderrLine: {'line': b'  176 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_RGB2GRAY\x1b[m\x1b[K);\n'}
+[10.441100] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.499838] (-) TimerEvent: {}
+[10.500494] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:181:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.500785] (orb_slam2_stereo) StderrLine: {'line': b'  181 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_BGR2GRAY\x1b[m\x1b[K);\n'}
+[10.500878] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.564031] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:189:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.564392] (orb_slam2_stereo) StderrLine: {'line': b'  189 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_RGBA2GRAY\x1b[m\x1b[K);\n'}
+[10.564496] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.600845] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/LoopClosing.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM2::LoopClosing::CorrectLoop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.601156] (-) TimerEvent: {}
+[10.601335] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/LoopClosing.cc:416:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of an operand of type \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Koperator++\x1b[m\x1b[K\xe2\x80\x99 is forbidden in C++17\n'}
+[10.601522] (orb_slam2_stereo) StderrLine: {'line': b'  416 |         \x1b[01;31m\x1b[KmnFullBAIdx\x1b[m\x1b[K++;\n'}
+[10.601610] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.629994] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:194:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.630396] (orb_slam2_stereo) StderrLine: {'line': b'  194 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_BGRA2GRAY\x1b[m\x1b[K);\n'}
+[10.630531] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.691753] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat ORB_SLAM2::Tracking::GrabImageRGBD(const cv::Mat&, const cv::Mat&, const double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.692329] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:215:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.692528] (orb_slam2_stereo) StderrLine: {'line': b'  215 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_RGB2GRAY\x1b[m\x1b[K);\n'}
+[10.692637] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.702162] (-) TimerEvent: {}
+[10.755619] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:217:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.756016] (orb_slam2_stereo) StderrLine: {'line': b'  217 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_BGR2GRAY\x1b[m\x1b[K);\n'}
+[10.756122] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.804831] (-) TimerEvent: {}
+[10.820245] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:222:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.820651] (orb_slam2_stereo) StderrLine: {'line': b'  222 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_RGBA2GRAY\x1b[m\x1b[K);\n'}
+[10.820772] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.884447] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:224:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.884829] (orb_slam2_stereo) StderrLine: {'line': b'  224 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_BGRA2GRAY\x1b[m\x1b[K);\n'}
+[10.884957] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.906678] (-) TimerEvent: {}
+[10.945534] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat ORB_SLAM2::Tracking::GrabImageMonocular(const cv::Mat&, const double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.945911] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:245:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.946029] (orb_slam2_stereo) StderrLine: {'line': b'  245 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_RGB2GRAY\x1b[m\x1b[K);\n'}
+[10.946107] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.007069] (-) TimerEvent: {}
+[11.011497] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:247:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.012112] (orb_slam2_stereo) StderrLine: {'line': b'  247 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_BGR2GRAY\x1b[m\x1b[K);\n'}
+[11.012391] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.088262] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:252:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.088691] (orb_slam2_stereo) StderrLine: {'line': b'  252 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_RGBA2GRAY\x1b[m\x1b[K);\n'}
+[11.088861] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.107380] (-) TimerEvent: {}
+[11.155311] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:254:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.155763] (orb_slam2_stereo) StderrLine: {'line': b'  254 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_BGRA2GRAY\x1b[m\x1b[K);\n'}
+[11.155897] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.207766] (-) TimerEvent: {}
+[11.308782] (-) TimerEvent: {}
+[11.415911] (-) TimerEvent: {}
+[11.522501] (-) TimerEvent: {}
+[11.628691] (-) TimerEvent: {}
+[11.735352] (-) TimerEvent: {}
+[11.837795] (-) TimerEvent: {}
+[11.941925] (-) TimerEvent: {}
+[12.048184] (-) TimerEvent: {}
+[12.154637] (-) TimerEvent: {}
+[12.257786] (-) TimerEvent: {}
+[12.360687] (-) TimerEvent: {}
+[12.463203] (-) TimerEvent: {}
+[12.566752] (-) TimerEvent: {}
+[12.672891] (-) TimerEvent: {}
+[12.773613] (-) TimerEvent: {}
+[12.877302] (-) TimerEvent: {}
+[12.983461] (-) TimerEvent: {}
+[13.086472] (-) TimerEvent: {}
+[13.192683] (-) TimerEvent: {}
+[13.293613] (-) TimerEvent: {}
+[13.394262] (-) TimerEvent: {}
+[13.495083] (-) TimerEvent: {}
+[13.596155] (-) TimerEvent: {}
+[13.697601] (-) TimerEvent: {}
+[13.798193] (-) TimerEvent: {}
+[13.899344] (-) TimerEvent: {}
+[14.008546] (-) TimerEvent: {}
+[14.111667] (-) TimerEvent: {}
+[14.214491] (-) TimerEvent: {}
+[14.317553] (-) TimerEvent: {}
+[14.420229] (-) TimerEvent: {}
+[14.523440] (-) TimerEvent: {}
+[14.626226] (-) TimerEvent: {}
+[14.727054] (-) TimerEvent: {}
+[14.830070] (-) TimerEvent: {}
+[14.933410] (-) TimerEvent: {}
+[15.036526] (-) TimerEvent: {}
+[15.139655] (-) TimerEvent: {}
+[15.242416] (-) TimerEvent: {}
+[15.345630] (-) TimerEvent: {}
+[15.447995] (-) TimerEvent: {}
+[15.550215] (-) TimerEvent: {}
+[15.650948] (-) TimerEvent: {}
+[15.751727] (-) TimerEvent: {}
+[15.854062] (-) TimerEvent: {}
+[15.954791] (-) TimerEvent: {}
+[16.055592] (-) TimerEvent: {}
+[16.157889] (-) TimerEvent: {}
+[16.263769] (-) TimerEvent: {}
+[16.366801] (-) TimerEvent: {}
+[16.469278] (-) TimerEvent: {}
+[16.572107] (-) TimerEvent: {}
+[16.674183] (-) TimerEvent: {}
+[16.776721] (-) TimerEvent: {}
+[16.879816] (-) TimerEvent: {}
+[16.982683] (-) TimerEvent: {}
+[17.085471] (-) TimerEvent: {}
+[17.188597] (-) TimerEvent: {}
+[17.290413] (-) TimerEvent: {}
+[17.393205] (-) TimerEvent: {}
+[17.496010] (-) TimerEvent: {}
+[17.598690] (-) TimerEvent: {}
+[17.701787] (-) TimerEvent: {}
+[17.805194] (-) TimerEvent: {}
+[17.905826] (-) TimerEvent: {}
+[18.006514] (-) TimerEvent: {}
+[18.109994] (-) TimerEvent: {}
+[18.212685] (-) TimerEvent: {}
+[18.314707] (-) TimerEvent: {}
+[18.415534] (-) TimerEvent: {}
+[18.517409] (-) TimerEvent: {}
+[18.620060] (-) TimerEvent: {}
+[18.723410] (-) TimerEvent: {}
+[18.825754] (-) TimerEvent: {}
+[18.928647] (-) TimerEvent: {}
+[19.032056] (-) TimerEvent: {}
+[19.135211] (-) TimerEvent: {}
+[19.236009] (-) TimerEvent: {}
+[19.336989] (-) TimerEvent: {}
+[19.440337] (-) TimerEvent: {}
+[19.548797] (-) TimerEvent: {}
+[19.649814] (-) TimerEvent: {}
+[19.750510] (-) TimerEvent: {}
+[19.858957] (-) TimerEvent: {}
+[19.963984] (-) TimerEvent: {}
+[20.069359] (-) TimerEvent: {}
+[20.174183] (-) TimerEvent: {}
+[20.275244] (-) TimerEvent: {}
+[20.377829] (-) TimerEvent: {}
+[20.480118] (-) TimerEvent: {}
+[20.583360] (-) TimerEvent: {}
+[20.686544] (-) TimerEvent: {}
+[20.787270] (-) TimerEvent: {}
+[20.888023] (-) TimerEvent: {}
+[20.991344] (-) TimerEvent: {}
+[21.093298] (-) TimerEvent: {}
+[21.196675] (-) TimerEvent: {}
+[21.298649] (-) TimerEvent: {}
+[21.400595] (-) TimerEvent: {}
+[21.502562] (-) TimerEvent: {}
+[21.604114] (-) TimerEvent: {}
+[21.706824] (-) TimerEvent: {}
+[21.807609] (-) TimerEvent: {}
+[21.842547] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:104: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/FrameDrawer.cc.o] Error 1\n'}
+[21.908669] (-) TimerEvent: {}
+[22.011191] (-) TimerEvent: {}
+[22.114385] (-) TimerEvent: {}
+[22.223487] (-) TimerEvent: {}
+[22.332368] (-) TimerEvent: {}
+[22.441408] (-) TimerEvent: {}
+[22.541973] (-) TimerEvent: {}
+[22.644958] (-) TimerEvent: {}
+[22.748237] (-) TimerEvent: {}
+[22.798607] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:174: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LoopClosing.cc.o] Error 1\n'}
+[22.850470] (-) TimerEvent: {}
+[22.953673] (-) TimerEvent: {}
+[23.055177] (-) TimerEvent: {}
+[23.156133] (-) TimerEvent: {}
+[23.203541] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:314: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Tracking.cc.o] Error 1\n'}
+[23.256635] (-) TimerEvent: {}
+[23.359634] (-) TimerEvent: {}
+[23.460272] (-) TimerEvent: {}
+[23.563614] (-) TimerEvent: {}
+[23.666813] (-) TimerEvent: {}
+[23.769600] (-) TimerEvent: {}
+[23.872557] (-) TimerEvent: {}
+[23.974112] (-) TimerEvent: {}
+[24.075047] (-) TimerEvent: {}
+[24.178419] (-) TimerEvent: {}
+[24.282005] (-) TimerEvent: {}
+[24.384195] (-) TimerEvent: {}
+[24.486857] (-) TimerEvent: {}
+[24.588178] (-) TimerEvent: {}
+[24.689491] (-) TimerEvent: {}
+[24.790155] (-) TimerEvent: {}
+[24.890793] (-) TimerEvent: {}
+[24.993318] (-) TimerEvent: {}
+[25.101818] (-) TimerEvent: {}
+[25.208003] (-) TimerEvent: {}
+[25.316782] (-) TimerEvent: {}
+[25.425277] (-) TimerEvent: {}
+[25.529949] (-) TimerEvent: {}
+[25.567249] (orb_slam2_stereo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/orb_slam2_core.dir/all] Error 2\n'}
+[25.567823] (orb_slam2_stereo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[25.572215] (orb_slam2_stereo) CommandEnded: {'returncode': 2}
+[25.590633] (orb_slam2_stereo) JobEnded: {'identifier': 'orb_slam2_stereo', 'rc': 2}
+[25.602140] (-) EventReactorShutdown: {}

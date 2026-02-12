@@ -1,0 +1,601 @@
+[0.000000] (-) TimerEvent: {}
+[0.000544] (orb_slam2_stereo) JobQueued: {'identifier': 'orb_slam2_stereo', 'dependencies': OrderedDict()}
+[0.000613] (orb_slam2_stereo) JobStarted: {'identifier': 'orb_slam2_stereo'}
+[0.021749] (orb_slam2_stereo) JobProgress: {'identifier': 'orb_slam2_stereo', 'progress': 'cmake'}
+[0.024394] (orb_slam2_stereo) JobProgress: {'identifier': 'orb_slam2_stereo', 'progress': 'build'}
+[0.024578] (orb_slam2_stereo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo', '--', '-j18', '-l18'], 'cwd': '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'zsj'), ('GIT_ASKPASS', '/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/zsj'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-073531b3-f422-4809-a5f7-ab58e98e5371.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_CONDA_ROOT', '/home/zsj/tools/miniconda3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zsj'), ('NAME', 'Zhuxingjie'), ('WSL_INTEROP', '/run/WSL/413_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zsj/.local/bin:/home/zsj/.local/bin:/home/zsj/.local/bin:(/home/zsj/tools/miniconda3/bin:/home/zsj/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/zsj/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/home/zsj/.local/bin:/home/zsj/.local/bin:/home/zsj/.local/bin:/opt/ros/humble/bin:(/home/zsj/tools/miniconda3/bin:/home/zsj/tools/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/anaconda3-updata:/mnt/c/ProgramData/anaconda3-updata/Scripts:/mnt/c/ProgramData/anaconda3-updata/Library/bin:/mnt/c/ProgramData/anaconda3-updata/Library/mingw-w64/bin:/mnt/c/Program Files/JetBrains/PyCharm 2024.1/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/d/Matlab/bin:/mnt/d/Matlab/runtime/win64:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/90/Tools/binn:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin:/mnt/d/OpenCV/x86_64-12.2.0-release-win32-sjlj-rt_v10-rev0/mingw64/bin:/mnt/d/OpenCV/cmake-3.30.0-windows-x86_64/cmake-3.30.0-windows-x86_64/bin:/mnt/d/OpenCV/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/wget:/mnt/d/Program Files/texlive/2024/bin/windows:/mnt/c/Program Files/OpenSSH/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/d/OpenCV/MinGW/bin:/mnt/c/Users/26074/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/26074/AppData/Local/Microsoft/WinGet/Packages/Game1024.OpenSpeedy_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/26074/AppData/Local/Programs/Ollama:/mnt/c/Users/26074/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin):/mnt/c/Users/26074/AppData/Local/Programs/Microsoft VS Code/bin):/mnt/c/Users/26074/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1a22f3f7b8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zsj/tools/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_CONDA_EXE', '/home/zsj/tools/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo'), ('CONDA_EXE', '/home/zsj/tools/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/zsj/tools/miniconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098858] (-) TimerEvent: {}
+[0.179057] (orb_slam2_stereo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DBoW2\x1b[0m\n'}
+[0.199018] (-) TimerEvent: {}
+[0.203831] (orb_slam2_stereo) StdoutLine: {'line': b'[ 11%] Built target DBoW2\n'}
+[0.218925] (orb_slam2_stereo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g2o\x1b[0m\n'}
+[0.273220] (orb_slam2_stereo) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object Thirdparty/g2o/CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o\x1b[0m\n'}
+[0.299260] (-) TimerEvent: {}
+[0.400321] (-) TimerEvent: {}
+[0.501149] (-) TimerEvent: {}
+[0.602634] (-) TimerEvent: {}
+[0.703693] (-) TimerEvent: {}
+[0.804617] (-) TimerEvent: {}
+[0.907828] (-) TimerEvent: {}
+[1.010345] (-) TimerEvent: {}
+[1.111320] (-) TimerEvent: {}
+[1.220447] (-) TimerEvent: {}
+[1.329122] (-) TimerEvent: {}
+[1.438240] (-) TimerEvent: {}
+[1.547411] (-) TimerEvent: {}
+[1.656637] (-) TimerEvent: {}
+[1.765865] (-) TimerEvent: {}
+[1.874987] (-) TimerEvent: {}
+[1.976172] (-) TimerEvent: {}
+[2.077113] (-) TimerEvent: {}
+[2.179836] (-) TimerEvent: {}
+[2.288924] (-) TimerEvent: {}
+[2.397666] (-) TimerEvent: {}
+[2.504103] (-) TimerEvent: {}
+[2.605548] (-) TimerEvent: {}
+[2.706710] (-) TimerEvent: {}
+[2.807854] (-) TimerEvent: {}
+[2.909040] (-) TimerEvent: {}
+[3.010325] (-) TimerEvent: {}
+[3.111608] (-) TimerEvent: {}
+[3.212823] (-) TimerEvent: {}
+[3.313825] (-) TimerEvent: {}
+[3.414852] (-) TimerEvent: {}
+[3.515910] (-) TimerEvent: {}
+[3.616691] (-) TimerEvent: {}
+[3.717741] (-) TimerEvent: {}
+[3.818997] (-) TimerEvent: {}
+[3.926658] (-) TimerEvent: {}
+[4.027667] (-) TimerEvent: {}
+[4.128816] (-) TimerEvent: {}
+[4.230269] (-) TimerEvent: {}
+[4.332361] (-) TimerEvent: {}
+[4.438741] (-) TimerEvent: {}
+[4.544219] (-) TimerEvent: {}
+[4.648426] (-) TimerEvent: {}
+[4.750290] (-) TimerEvent: {}
+[4.855941] (-) TimerEvent: {}
+[4.958860] (-) TimerEvent: {}
+[5.064543] (-) TimerEvent: {}
+[5.170766] (-) TimerEvent: {}
+[5.274215] (-) TimerEvent: {}
+[5.379867] (-) TimerEvent: {}
+[5.485864] (-) TimerEvent: {}
+[5.589139] (-) TimerEvent: {}
+[5.697819] (-) TimerEvent: {}
+[5.800464] (-) TimerEvent: {}
+[5.907590] (-) TimerEvent: {}
+[6.009009] (-) TimerEvent: {}
+[6.117413] (-) TimerEvent: {}
+[6.225721] (-) TimerEvent: {}
+[6.326649] (-) TimerEvent: {}
+[6.428001] (-) TimerEvent: {}
+[6.528910] (-) TimerEvent: {}
+[6.631469] (-) TimerEvent: {}
+[6.739999] (-) TimerEvent: {}
+[6.848394] (-) TimerEvent: {}
+[6.956839] (-) TimerEvent: {}
+[7.058330] (-) TimerEvent: {}
+[7.166756] (-) TimerEvent: {}
+[7.275023] (-) TimerEvent: {}
+[7.383319] (-) TimerEvent: {}
+[7.491906] (-) TimerEvent: {}
+[7.596677] (-) TimerEvent: {}
+[7.705029] (-) TimerEvent: {}
+[7.807729] (-) TimerEvent: {}
+[7.910107] (-) TimerEvent: {}
+[8.013434] (-) TimerEvent: {}
+[8.116826] (-) TimerEvent: {}
+[8.219061] (-) TimerEvent: {}
+[8.321268] (-) TimerEvent: {}
+[8.424449] (-) TimerEvent: {}
+[8.526520] (-) TimerEvent: {}
+[8.629579] (-) TimerEvent: {}
+[8.732695] (-) TimerEvent: {}
+[8.836148] (-) TimerEvent: {}
+[8.937220] (-) TimerEvent: {}
+[9.038073] (-) TimerEvent: {}
+[9.139229] (-) TimerEvent: {}
+[9.247599] (-) TimerEvent: {}
+[9.355946] (-) TimerEvent: {}
+[9.464519] (-) TimerEvent: {}
+[9.568831] (-) TimerEvent: {}
+[9.675549] (-) TimerEvent: {}
+[9.783241] (-) TimerEvent: {}
+[9.891532] (-) TimerEvent: {}
+[9.997181] (-) TimerEvent: {}
+[10.105419] (-) TimerEvent: {}
+[10.213715] (-) TimerEvent: {}
+[10.322247] (-) TimerEvent: {}
+[10.423008] (-) TimerEvent: {}
+[10.531336] (-) TimerEvent: {}
+[10.633674] (-) TimerEvent: {}
+[10.741932] (-) TimerEvent: {}
+[10.845571] (-) TimerEvent: {}
+[10.953915] (-) TimerEvent: {}
+[11.061267] (-) TimerEvent: {}
+[11.169518] (-) TimerEvent: {}
+[11.271411] (-) TimerEvent: {}
+[11.374675] (-) TimerEvent: {}
+[11.483299] (-) TimerEvent: {}
+[11.584714] (-) TimerEvent: {}
+[11.693017] (-) TimerEvent: {}
+[11.801647] (-) TimerEvent: {}
+[11.902658] (-) TimerEvent: {}
+[12.008400] (-) TimerEvent: {}
+[12.111210] (-) TimerEvent: {}
+[12.219482] (-) TimerEvent: {}
+[12.327828] (-) TimerEvent: {}
+[12.436276] (-) TimerEvent: {}
+[12.544689] (-) TimerEvent: {}
+[12.648086] (-) TimerEvent: {}
+[12.756531] (-) TimerEvent: {}
+[12.858550] (-) TimerEvent: {}
+[12.966898] (-) TimerEvent: {}
+[13.075573] (-) TimerEvent: {}
+[13.183692] (-) TimerEvent: {}
+[13.288243] (-) TimerEvent: {}
+[13.389591] (-) TimerEvent: {}
+[13.494135] (-) TimerEvent: {}
+[13.594973] (-) TimerEvent: {}
+[13.699989] (-) TimerEvent: {}
+[13.802783] (-) TimerEvent: {}
+[13.911949] (-) TimerEvent: {}
+[14.020761] (-) TimerEvent: {}
+[14.129897] (-) TimerEvent: {}
+[14.238879] (-) TimerEvent: {}
+[14.347873] (-) TimerEvent: {}
+[14.450973] (-) TimerEvent: {}
+[14.560193] (-) TimerEvent: {}
+[14.669100] (-) TimerEvent: {}
+[14.776730] (-) TimerEvent: {}
+[14.885642] (-) TimerEvent: {}
+[14.994989] (-) TimerEvent: {}
+[15.098486] (-) TimerEvent: {}
+[15.200988] (-) TimerEvent: {}
+[15.303927] (-) TimerEvent: {}
+[15.405959] (-) TimerEvent: {}
+[15.508052] (-) TimerEvent: {}
+[15.609000] (-) TimerEvent: {}
+[15.712873] (-) TimerEvent: {}
+[15.821167] (-) TimerEvent: {}
+[15.922037] (-) TimerEvent: {}
+[16.025684] (-) TimerEvent: {}
+[16.134285] (-) TimerEvent: {}
+[16.236183] (-) TimerEvent: {}
+[16.339225] (-) TimerEvent: {}
+[16.443310] (-) TimerEvent: {}
+[16.551672] (-) TimerEvent: {}
+[16.652829] (-) TimerEvent: {}
+[16.761422] (-) TimerEvent: {}
+[16.869758] (-) TimerEvent: {}
+[16.976772] (-) TimerEvent: {}
+[17.078854] (-) TimerEvent: {}
+[17.182169] (-) TimerEvent: {}
+[17.290547] (-) TimerEvent: {}
+[17.399264] (-) TimerEvent: {}
+[17.500279] (-) TimerEvent: {}
+[17.603374] (-) TimerEvent: {}
+[17.706279] (-) TimerEvent: {}
+[17.807390] (-) TimerEvent: {}
+[17.908486] (-) TimerEvent: {}
+[18.012394] (-) TimerEvent: {}
+[18.114906] (-) TimerEvent: {}
+[18.217559] (-) TimerEvent: {}
+[18.318648] (-) TimerEvent: {}
+[18.419669] (-) TimerEvent: {}
+[18.522003] (-) TimerEvent: {}
+[18.624773] (-) TimerEvent: {}
+[18.727213] (-) TimerEvent: {}
+[18.830191] (-) TimerEvent: {}
+[18.933212] (-) TimerEvent: {}
+[19.035579] (-) TimerEvent: {}
+[19.138129] (-) TimerEvent: {}
+[19.240828] (-) TimerEvent: {}
+[19.343598] (-) TimerEvent: {}
+[19.446678] (-) TimerEvent: {}
+[19.549009] (-) TimerEvent: {}
+[19.651686] (-) TimerEvent: {}
+[19.754255] (-) TimerEvent: {}
+[19.856661] (-) TimerEvent: {}
+[19.959161] (-) TimerEvent: {}
+[20.061908] (-) TimerEvent: {}
+[20.164460] (-) TimerEvent: {}
+[20.265269] (-) TimerEvent: {}
+[20.371771] (-) TimerEvent: {}
+[20.480703] (-) TimerEvent: {}
+[20.588474] (-) TimerEvent: {}
+[20.696477] (-) TimerEvent: {}
+[20.800326] (-) TimerEvent: {}
+[20.901690] (-) TimerEvent: {}
+[21.006883] (-) TimerEvent: {}
+[21.112625] (-) TimerEvent: {}
+[21.221781] (-) TimerEvent: {}
+[21.330940] (-) TimerEvent: {}
+[21.440347] (-) TimerEvent: {}
+[21.549627] (-) TimerEvent: {}
+[21.654188] (-) TimerEvent: {}
+[21.763476] (-) TimerEvent: {}
+[21.872117] (-) TimerEvent: {}
+[21.981214] (-) TimerEvent: {}
+[22.084155] (-) TimerEvent: {}
+[22.193455] (-) TimerEvent: {}
+[22.296160] (-) TimerEvent: {}
+[22.404174] (-) TimerEvent: {}
+[22.512436] (-) TimerEvent: {}
+[22.613584] (-) TimerEvent: {}
+[22.722649] (-) TimerEvent: {}
+[22.826627] (-) TimerEvent: {}
+[22.935588] (-) TimerEvent: {}
+[23.036225] (-) TimerEvent: {}
+[23.138861] (-) TimerEvent: {}
+[23.247794] (-) TimerEvent: {}
+[23.354528] (-) TimerEvent: {}
+[23.463530] (-) TimerEvent: {}
+[23.566878] (-) TimerEvent: {}
+[23.672745] (-) TimerEvent: {}
+[23.781997] (-) TimerEvent: {}
+[23.891174] (-) TimerEvent: {}
+[24.000169] (-) TimerEvent: {}
+[24.106075] (-) TimerEvent: {}
+[24.215163] (-) TimerEvent: {}
+[24.317631] (-) TimerEvent: {}
+[24.426864] (-) TimerEvent: {}
+[24.536087] (-) TimerEvent: {}
+[24.637804] (-) TimerEvent: {}
+[24.747013] (-) TimerEvent: {}
+[24.851502] (-) TimerEvent: {}
+[24.960550] (-) TimerEvent: {}
+[25.061412] (-) TimerEvent: {}
+[25.166583] (-) TimerEvent: {}
+[25.275877] (-) TimerEvent: {}
+[25.376741] (-) TimerEvent: {}
+[25.484017] (-) TimerEvent: {}
+[25.593149] (-) TimerEvent: {}
+[25.701199] (-) TimerEvent: {}
+[25.802330] (-) TimerEvent: {}
+[25.903548] (-) TimerEvent: {}
+[26.008592] (-) TimerEvent: {}
+[26.114233] (-) TimerEvent: {}
+[26.220205] (-) TimerEvent: {}
+[26.321899] (-) TimerEvent: {}
+[26.422927] (-) TimerEvent: {}
+[26.524313] (-) TimerEvent: {}
+[26.626075] (-) TimerEvent: {}
+[26.732136] (-) TimerEvent: {}
+[26.838573] (-) TimerEvent: {}
+[26.840805] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool g2o::EdgeSim3ProjectXYZ::read(std::istream&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.841145] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp:139:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kiteration 2 invokes undefined behavior [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations\x07-Waggressive-loop-optimizations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.841276] (orb_slam2_stereo) StderrLine: {'line': b'  139 |   is >> \x1b[01;35m\x1b[Kinformation()(i,j)\x1b[m\x1b[K;\n'}
+[26.841363] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[26.841442] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp:138:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kwithin this loop\n'}
+[26.841523] (orb_slam2_stereo) StderrLine: {'line': b'  138 |       for (int j=i; \x1b[01;36m\x1b[Kj<2\x1b[m\x1b[K; j++) {\n'}
+[26.841602] (orb_slam2_stereo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~^~\x1b[m\x1b[K\n'}
+[26.945833] (-) TimerEvent: {}
+[27.046742] (-) TimerEvent: {}
+[27.149219] (-) TimerEvent: {}
+[27.251315] (-) TimerEvent: {}
+[27.353514] (-) TimerEvent: {}
+[27.455620] (-) TimerEvent: {}
+[27.557530] (-) TimerEvent: {}
+[27.659232] (-) TimerEvent: {}
+[27.761113] (-) TimerEvent: {}
+[27.863816] (-) TimerEvent: {}
+[27.965847] (-) TimerEvent: {}
+[28.067966] (-) TimerEvent: {}
+[28.169968] (-) TimerEvent: {}
+[28.272184] (-) TimerEvent: {}
+[28.374244] (-) TimerEvent: {}
+[28.476231] (-) TimerEvent: {}
+[28.574295] (orb_slam2_stereo) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking CXX shared library /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/Thirdparty/g2o/lib/libg2o.so\x1b[0m\n'}
+[28.576477] (-) TimerEvent: {}
+[28.677279] (-) TimerEvent: {}
+[28.780112] (-) TimerEvent: {}
+[28.883109] (-) TimerEvent: {}
+[28.986057] (-) TimerEvent: {}
+[29.089830] (-) TimerEvent: {}
+[29.192828] (-) TimerEvent: {}
+[29.293845] (-) TimerEvent: {}
+[29.333726] (orb_slam2_stereo) StdoutLine: {'line': b'[ 62%] Built target g2o\n'}
+[29.354603] (orb_slam2_stereo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orb_slam2_core\x1b[0m\n'}
+[29.377543] (orb_slam2_stereo) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Converter.cc.o\x1b[0m\n'}
+[29.377918] (orb_slam2_stereo) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LocalMapping.cc.o\x1b[0m\n'}
+[29.378422] (orb_slam2_stereo) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/KeyFrameDatabase.cc.o\x1b[0m\n'}
+[29.381864] (orb_slam2_stereo) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Initializer.cc.o\x1b[0m\n'}
+[29.382216] (orb_slam2_stereo) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LoopClosing.cc.o\x1b[0m\n'}
+[29.383427] (orb_slam2_stereo) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/MapDrawer.cc.o\x1b[0m\n'}
+[29.383714] (orb_slam2_stereo) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/KeyFrame.cc.o\x1b[0m\n'}
+[29.384542] (orb_slam2_stereo) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/FrameDrawer.cc.o\x1b[0m\n'}
+[29.385370] (orb_slam2_stereo) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Map.cc.o\x1b[0m\n'}
+[29.387802] (orb_slam2_stereo) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/MapPoint.cc.o\x1b[0m\n'}
+[29.394459] (-) TimerEvent: {}
+[29.395109] (orb_slam2_stereo) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Frame.cc.o\x1b[0m\n'}
+[29.428064] (orb_slam2_stereo) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Optimizer.cc.o\x1b[0m\n'}
+[29.428477] (orb_slam2_stereo) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Sim3Solver.cc.o\x1b[0m\n'}
+[29.428675] (orb_slam2_stereo) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Tracking.cc.o\x1b[0m\n'}
+[29.428784] (orb_slam2_stereo) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/System.cc.o\x1b[0m\n'}
+[29.435526] (orb_slam2_stereo) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/ORBmatcher.cc.o\x1b[0m\n'}
+[29.450875] (orb_slam2_stereo) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/PnPsolver.cc.o\x1b[0m\n'}
+[29.497256] (-) TimerEvent: {}
+[29.532732] (orb_slam2_stereo) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Viewer.cc.o\x1b[0m\n'}
+[29.550686] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Frame.h:29\x1b[m\x1b[K,\n'}
+[29.551442] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:25\x1b[m\x1b[K,\n'}
+[29.551703] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:24\x1b[m\x1b[K,\n'}
+[29.551860] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LoopClosing.h:24\x1b[m\x1b[K,\n'}
+[29.551952] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/LoopClosing.cc:21\x1b[m\x1b[K:\n'}
+[29.552029] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.552107] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.552192] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.556684] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.558092] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Frame.h:29\x1b[m\x1b[K,\n'}
+[29.559026] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:25\x1b[m\x1b[K,\n'}
+[29.559206] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:24\x1b[m\x1b[K,\n'}
+[29.559294] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LocalMapping.h:24\x1b[m\x1b[K,\n'}
+[29.559368] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/LocalMapping.cc:21\x1b[m\x1b[K:\n'}
+[29.559438] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.559509] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.559577] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.559641] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.562153] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:174: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LoopClosing.cc.o] Error 1\n'}
+[29.562831] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[29.573873] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:160: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LocalMapping.cc.o] Error 1\n'}
+[29.602784] (-) TimerEvent: {}
+[29.605568] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Frame.h:29\x1b[m\x1b[K,\n'}
+[29.606142] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:25\x1b[m\x1b[K,\n'}
+[29.606333] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:24\x1b[m\x1b[K,\n'}
+[29.606422] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/KeyFrame.cc:21\x1b[m\x1b[K:\n'}
+[29.606498] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.606577] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.606666] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.606762] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.624295] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:132: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/KeyFrame.cc.o] Error 1\n'}
+[29.630088] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Frame.h:29\x1b[m\x1b[K,\n'}
+[29.630612] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:25\x1b[m\x1b[K,\n'}
+[29.632396] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:24\x1b[m\x1b[K,\n'}
+[29.632578] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrameDatabase.h:28\x1b[m\x1b[K,\n'}
+[29.632723] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/KeyFrameDatabase.cc:21\x1b[m\x1b[K:\n'}
+[29.632840] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.632948] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.633276] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.633372] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:27\x1b[m\x1b[K,\n'}
+[29.633461] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[29.633789] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Map.h:24\x1b[m\x1b[K,\n'}
+[29.633942] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Optimizer.h:24\x1b[m\x1b[K,\n'}
+[29.634027] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Optimizer.cc:21\x1b[m\x1b[K:\n'}
+[29.634114] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.634186] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.634252] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.634464] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.634559] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.637315] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:27\x1b[m\x1b[K,\n'}
+[29.637526] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[29.637619] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Frame.h:26\x1b[m\x1b[K,\n'}
+[29.637690] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Frame.cc:21\x1b[m\x1b[K:\n'}
+[29.637821] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.637905] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.637976] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.638043] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.638109] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:258: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Optimizer.cc.o] Error 1\n'}
+[29.638176] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:27\x1b[m\x1b[K,\n'}
+[29.638244] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[29.638448] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Map.h:24\x1b[m\x1b[K,\n'}
+[29.638742] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapDrawer.h:24\x1b[m\x1b[K,\n'}
+[29.638837] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/MapDrawer.cc:21\x1b[m\x1b[K:\n'}
+[29.638911] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.638999] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.639172] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.639280] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.639357] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:146: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/KeyFrameDatabase.cc.o] Error 1\n'}
+[29.639428] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:90: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Frame.cc.o] Error 1\n'}
+[29.654220] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:27\x1b[m\x1b[K,\n'}
+[29.654588] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[29.654756] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Map.h:24\x1b[m\x1b[K,\n'}
+[29.654873] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Map.cc:21\x1b[m\x1b[K:\n'}
+[29.654960] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.655046] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.655125] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.655200] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.660190] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:188: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Map.cc.o] Error 1\n'}
+[29.660868] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:202: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/MapDrawer.cc.o] Error 1\n'}
+[29.675456] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:27\x1b[m\x1b[K,\n'}
+[29.676095] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[29.676333] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/MapPoint.cc:21\x1b[m\x1b[K:\n'}
+[29.676452] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.676549] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.676632] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.676709] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.692633] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:216: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/MapPoint.cc.o] Error 1\n'}
+[29.703858] (-) TimerEvent: {}
+[29.804323] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:27\x1b[m\x1b[K,\n'}
+[29.804802] (-) TimerEvent: {}
+[29.805121] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[29.805376] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Map.h:24\x1b[m\x1b[K,\n'}
+[29.805474] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapDrawer.h:24\x1b[m\x1b[K,\n'}
+[29.805546] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:26\x1b[m\x1b[K,\n'}
+[29.805614] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[29.805680] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[29.805745] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/FrameDrawer.cc:21\x1b[m\x1b[K:\n'}
+[29.805809] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.805878] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.805944] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.806007] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.810027] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:104: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/FrameDrawer.cc.o] Error 1\n'}
+[29.829518] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:27\x1b[m\x1b[K,\n'}
+[29.829931] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[29.830038] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/PnPsolver.h:55\x1b[m\x1b[K,\n'}
+[29.830155] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:53\x1b[m\x1b[K:\n'}
+[29.830253] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.830334] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.830408] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.830479] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.836990] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:272: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/PnPsolver.cc.o] Error 1\n'}
+[29.847508] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:27\x1b[m\x1b[K,\n'}
+[29.847915] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[29.848041] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBmatcher.h:29\x1b[m\x1b[K,\n'}
+[29.848117] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/ORBmatcher.cc:21\x1b[m\x1b[K:\n'}
+[29.848187] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.848257] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.848323] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.848386] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.852466] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:244: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/ORBmatcher.cc.o] Error 1\n'}
+[29.884562] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:27\x1b[m\x1b[K,\n'}
+[29.884930] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[29.885125] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[29.885242] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[29.885345] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[29.885447] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22\x1b[m\x1b[K:\n'}
+[29.885530] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.885617] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.885699] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.885781] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.890327] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:314: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Tracking.cc.o] Error 1\n'}
+[29.895620] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:27\x1b[m\x1b[K,\n'}
+[29.896104] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[29.896258] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Map.h:24\x1b[m\x1b[K,\n'}
+[29.896343] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:30\x1b[m\x1b[K,\n'}
+[29.896422] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[29.896500] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[29.896583] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Viewer.cc:21\x1b[m\x1b[K:\n'}
+[29.896663] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.896742] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.896821] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.896893] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.901196] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:328: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Viewer.cc.o] Error 1\n'}
+[29.905310] (-) TimerEvent: {}
+[29.907593] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:27\x1b[m\x1b[K,\n'}
+[29.908028] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[29.908137] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[29.908204] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25\x1b[m\x1b[K,\n'}
+[29.908270] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28\x1b[m\x1b[K,\n'}
+[29.908326] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/System.h:29\x1b[m\x1b[K,\n'}
+[29.908389] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/System.cc:23\x1b[m\x1b[K:\n'}
+[29.908446] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.908499] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.908543] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.908585] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.911361] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:300: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/System.cc.o] Error 1\n'}
+[29.946802] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:27\x1b[m\x1b[K,\n'}
+[29.947339] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[29.947456] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Frame.h:26\x1b[m\x1b[K,\n'}
+[29.947592] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Initializer.h:24\x1b[m\x1b[K,\n'}
+[29.947702] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Initializer.cc:21\x1b[m\x1b[K:\n'}
+[29.947786] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.947870] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.947952] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.948029] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.954595] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:118: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Initializer.cc.o] Error 1\n'}
+[29.967824] (orb_slam2_stereo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Frame.h:29\x1b[m\x1b[K,\n'}
+[29.968390] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/MapPoint.h:25\x1b[m\x1b[K,\n'}
+[29.968570] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/KeyFrame.h:24\x1b[m\x1b[K,\n'}
+[29.968662] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Sim3Solver.h:28\x1b[m\x1b[K,\n'}
+[29.968749] (orb_slam2_stereo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Sim3Solver.cc:22\x1b[m\x1b[K:\n'}
+[29.968845] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/ORBVocabulary.h:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory\n'}
+[29.968931] (orb_slam2_stereo) StderrLine: {'line': b'   25 | #include\x1b[01;31m\x1b[K"Thirdparty/DBoW2/DBoW2/FORB.h"\x1b[m\x1b[K\n'}
+[29.969022] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.969191] (orb_slam2_stereo) StderrLine: {'line': b'compilation terminated.\n'}
+[29.973933] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:286: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Sim3Solver.cc.o] Error 1\n'}
+[30.008184] (-) TimerEvent: {}
+[30.109285] (-) TimerEvent: {}
+[30.215666] (-) TimerEvent: {}
+[30.324924] (-) TimerEvent: {}
+[30.425829] (-) TimerEvent: {}
+[30.530581] (-) TimerEvent: {}
+[30.633472] (-) TimerEvent: {}
+[30.742213] (-) TimerEvent: {}
+[30.851373] (-) TimerEvent: {}
+[30.960515] (-) TimerEvent: {}
+[31.069674] (-) TimerEvent: {}
+[31.178943] (-) TimerEvent: {}
+[31.287961] (-) TimerEvent: {}
+[31.388840] (-) TimerEvent: {}
+[31.492425] (-) TimerEvent: {}
+[31.593632] (-) TimerEvent: {}
+[31.695073] (-) TimerEvent: {}
+[31.804113] (-) TimerEvent: {}
+[31.913141] (-) TimerEvent: {}
+[32.022267] (-) TimerEvent: {}
+[32.123566] (-) TimerEvent: {}
+[32.229232] (-) TimerEvent: {}
+[32.330589] (-) TimerEvent: {}
+[32.431253] (-) TimerEvent: {}
+[32.532324] (-) TimerEvent: {}
+[32.634311] (-) TimerEvent: {}
+[32.740101] (-) TimerEvent: {}
+[32.848819] (-) TimerEvent: {}
+[32.957217] (-) TimerEvent: {}
+[33.065515] (-) TimerEvent: {}
+[33.166817] (-) TimerEvent: {}
+[33.274911] (-) TimerEvent: {}
+[33.383351] (-) TimerEvent: {}
+[33.491630] (-) TimerEvent: {}
+[33.595659] (-) TimerEvent: {}
+[33.700676] (-) TimerEvent: {}
+[33.801651] (-) TimerEvent: {}
+[33.902998] (-) TimerEvent: {}
+[34.004711] (-) TimerEvent: {}
+[34.105717] (-) TimerEvent: {}
+[34.206861] (-) TimerEvent: {}
+[34.308639] (-) TimerEvent: {}
+[34.409424] (-) TimerEvent: {}
+[34.510831] (-) TimerEvent: {}
+[34.612483] (-) TimerEvent: {}
+[34.713324] (-) TimerEvent: {}
+[34.818251] (-) TimerEvent: {}
+[34.926849] (-) TimerEvent: {}
+[35.035191] (-) TimerEvent: {}
+[35.137424] (-) TimerEvent: {}
+[35.245916] (-) TimerEvent: {}
+[35.354289] (-) TimerEvent: {}
+[35.462833] (-) TimerEvent: {}
+[35.571212] (-) TimerEvent: {}
+[35.672661] (-) TimerEvent: {}
+[35.781054] (-) TimerEvent: {}
+[35.889431] (-) TimerEvent: {}
+[35.997887] (-) TimerEvent: {}
+[36.098945] (-) TimerEvent: {}
+[36.202702] (-) TimerEvent: {}
+[36.310993] (-) TimerEvent: {}
+[36.419423] (-) TimerEvent: {}
+[36.527819] (-) TimerEvent: {}
+[36.629289] (-) TimerEvent: {}
+[36.737011] (-) TimerEvent: {}
+[36.845524] (-) TimerEvent: {}
+[36.946523] (-) TimerEvent: {}
+[37.047080] (-) TimerEvent: {}
+[37.150570] (-) TimerEvent: {}
+[37.257708] (-) TimerEvent: {}
+[37.366194] (-) TimerEvent: {}
+[37.471308] (-) TimerEvent: {}
+[37.579820] (-) TimerEvent: {}
+[37.683300] (-) TimerEvent: {}
+[37.791867] (-) TimerEvent: {}
+[37.900606] (-) TimerEvent: {}
+[38.007682] (-) TimerEvent: {}
+[38.116234] (-) TimerEvent: {}
+[38.217590] (-) TimerEvent: {}
+[38.324363] (-) TimerEvent: {}
+[38.425347] (-) TimerEvent: {}
+[38.531770] (-) TimerEvent: {}
+[38.633283] (-) TimerEvent: {}
+[38.739683] (-) TimerEvent: {}
+[38.848248] (-) TimerEvent: {}
+[38.956506] (-) TimerEvent: {}
+[39.064843] (-) TimerEvent: {}
+[39.173277] (-) TimerEvent: {}
+[39.281922] (-) TimerEvent: {}
+[39.390352] (-) TimerEvent: {}
+[39.491782] (-) TimerEvent: {}
+[39.600449] (-) TimerEvent: {}
+[39.701788] (-) TimerEvent: {}
+[39.802911] (-) TimerEvent: {}
+[39.905534] (-) TimerEvent: {}
+[40.008029] (-) TimerEvent: {}
+[40.110924] (-) TimerEvent: {}
+[40.214010] (-) TimerEvent: {}
+[40.316112] (-) TimerEvent: {}
+[40.418685] (-) TimerEvent: {}
+[40.470958] (orb_slam2_stereo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/orb_slam2_core.dir/all] Error 2\n'}
+[40.471515] (orb_slam2_stereo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[40.475983] (orb_slam2_stereo) CommandEnded: {'returncode': 2}
+[40.515255] (orb_slam2_stereo) JobEnded: {'identifier': 'orb_slam2_stereo', 'rc': 2}
+[40.517644] (-) EventReactorShutdown: {}

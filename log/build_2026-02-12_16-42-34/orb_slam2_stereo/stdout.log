@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target g2o[0m
+[ 11%] Built target DBoW2
+[ 62%] Built target g2o
+[35m[1mConsolidate compiler generated dependencies of target orb_slam2_core[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/FrameDrawer.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Frame.cc.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Initializer.cc.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/KeyFrame.cc.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/KeyFrameDatabase.cc.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Sim3Solver.cc.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LoopClosing.cc.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/ORBmatcher.cc.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LocalMapping.cc.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Map.cc.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/MapPoint.cc.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Optimizer.cc.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/MapDrawer.cc.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/PnPsolver.cc.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Tracking.cc.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/System.cc.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Viewer.cc.o[0m

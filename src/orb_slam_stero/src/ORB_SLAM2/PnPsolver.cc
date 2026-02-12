@@ -55,7 +55,9 @@
 #include <vector>
 #include <cmath>
 #include <opencv2/core/core.hpp>
-#include "Thirdparty/DBoW2/DUtils/Random.h"
+#include <opencv2/imgproc/types_c.h>
+#include <opencv2/imgproc.hpp>
+#include "../../Thirdparty/DBoW2/DUtils/Random.h"
 #include <algorithm>
 
 using namespace std;
@@ -397,7 +399,7 @@ void PnPsolver::choose_control_points(void)
       PW0->data.db[3 * i + j] = pws[3 * i + j] - cws[0][j];
 
   cvMulTransposed(PW0, &PW0tPW0, 1);
-  cvSVD(&PW0tPW0, &DC, &UCt, 0, CV_SVD_MODIFY_A | CV_SVD_U_T);
+  cvSVD(&PW0tPW0, &DC, &UCt, 0, CV_HAL_SVD_MODIFY_A | CV_SVD_U_T);
 
   cvReleaseMat(&PW0);
 
@@ -418,7 +420,7 @@ void PnPsolver::compute_barycentric_coordinates(void)
     for(int j = 1; j < 4; j++)
       cc[3 * i + j - 1] = cws[j][i] - cws[0][i];
 
-  cvInvert(&CC, &CC_inv, CV_SVD);
+  cvInvert(&CC, &CC_inv, CV_AVX);
   double * ci = cc_inv;
   for(int i = 0; i < number_of_correspondences; i++) {
     double * pi = pws + 3 * i;
@@ -490,7 +492,7 @@ double PnPsolver::compute_pose(double R[3][3], double t[3])
   CvMat Ut  = cvMat(12, 12, CV_64F, ut);
 
   cvMulTransposed(M, &MtM, 1);
-  cvSVD(&MtM, &D, &Ut, 0, CV_SVD_MODIFY_A | CV_SVD_U_T);
+  cvSVD(&MtM, &D, &Ut, 0, CV_HAL_SVD_MODIFY_A | CV_SVD_U_T);
   cvReleaseMat(&M);
 
   double l_6x10[6 * 10], rho[6];
@@ -605,7 +607,7 @@ void PnPsolver::estimate_R_and_t(double R[3][3], double t[3])
     }
   }
 
-  cvSVD(&ABt, &ABt_D, &ABt_U, &ABt_V, CV_SVD_MODIFY_A);
+  cvSVD(&ABt, &ABt_D, &ABt_U, &ABt_V, CV_HAL_SVD_MODIFY_A);
 
   for(int i = 0; i < 3; i++)
     for(int j = 0; j < 3; j++)
@@ -678,7 +680,7 @@ void PnPsolver::find_betas_approx_1(const CvMat * L_6x10, const CvMat * Rho,
     cvmSet(&L_6x4, i, 3, cvmGet(L_6x10, i, 6));
   }
 
-  cvSolve(&L_6x4, Rho, &B4, CV_SVD);
+  cvSolve(&L_6x4, Rho, &B4, CV_AVX);
 
   if (b4[0] < 0) {
     betas[0] = sqrt(-b4[0]);
@@ -709,7 +711,7 @@ void PnPsolver::find_betas_approx_2(const CvMat * L_6x10, const CvMat * Rho,
     cvmSet(&L_6x3, i, 2, cvmGet(L_6x10, i, 2));
   }
 
-  cvSolve(&L_6x3, Rho, &B3, CV_SVD);
+  cvSolve(&L_6x3, Rho, &B3, CV_AVX);
 
   if (b3[0] < 0) {
     betas[0] = sqrt(-b3[0]);
@@ -743,7 +745,7 @@ void PnPsolver::find_betas_approx_3(const CvMat * L_6x10, const CvMat * Rho,
     cvmSet(&L_6x5, i, 4, cvmGet(L_6x10, i, 4));
   }
 
-  cvSolve(&L_6x5, Rho, &B5, CV_SVD);
+  cvSolve(&L_6x5, Rho, &B5, CV_AVX);
 
   if (b5[0] < 0) {
     betas[0] = sqrt(-b5[0]);

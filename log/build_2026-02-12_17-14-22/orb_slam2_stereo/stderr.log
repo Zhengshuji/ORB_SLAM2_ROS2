@@ -1,0 +1,60 @@
+[01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/ros2_stereo_node.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/ros2_stereo_node.cc:104:100:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Subscriber<sensor_msgs::msg::Image_<std::allocator<void> > >::Subscriber(std::shared_ptr<rclcpp::Node>&, const char [23], int)[m[K’
+  104 |     message_filters::Subscriber<sensor_msgs::msg::Image> left_sub(node, "/camera/left/image_raw", 1[01;31m[K)[m[K;
+      |                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/ros2_stereo_node.cc:11[m[K:
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:203:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber() [with M = sensor_msgs::msg::Image_<std::allocator<void> >; NodeType = rclcpp::Node][m[K’
+  203 |   [01;36m[KSubscriber[m[K() = default;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:203:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:191:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(NodeType*, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = sensor_msgs::msg::Image_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+  191 |   [01;36m[KSubscriber[m[K(
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:191:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:182:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = sensor_msgs::msg::Image_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+  182 |   [01;36m[KSubscriber[m[K(
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:182:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:167:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(NodeType*, const string&, rmw_qos_profile_t) [with M = sensor_msgs::msg::Image_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K’
+  167 |   [01;36m[KSubscriber[m[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:167:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+  167 |   Subscriber([01;36m[KNodeType * node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+      |              [01;36m[K~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:162:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t) [with M = sensor_msgs::msg::Image_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K’
+  162 |   [01;36m[KSubscriber[m[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:162:78:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kint[m[K’ to ‘[01m[Krmw_qos_profile_t[m[K’ {aka ‘[01m[Krmw_qos_profile_s[m[K’}
+  162 |   Subscriber(NodePtr node, const std::string& topic, [01;36m[Kconst rmw_qos_profile_t qos = rmw_qos_profile_default[m[K)
+      |                                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/ros2_stereo_node.cc:105:102:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Subscriber<sensor_msgs::msg::Image_<std::allocator<void> > >::Subscriber(std::shared_ptr<rclcpp::Node>&, const char [24], int)[m[K’
+  105 |     message_filters::Subscriber<sensor_msgs::msg::Image> right_sub(node, "/camera/right/image_raw", 1[01;31m[K)[m[K;
+      |                                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/ros2_stereo_node.cc:11[m[K:
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:203:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber() [with M = sensor_msgs::msg::Image_<std::allocator<void> >; NodeType = rclcpp::Node][m[K’
+  203 |   [01;36m[KSubscriber[m[K() = default;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:203:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:191:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(NodeType*, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = sensor_msgs::msg::Image_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+  191 |   [01;36m[KSubscriber[m[K(
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:191:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:182:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [with M = sensor_msgs::msg::Image_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+  182 |   [01;36m[KSubscriber[m[K(
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:182:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:167:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(NodeType*, const string&, rmw_qos_profile_t) [with M = sensor_msgs::msg::Image_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K’
+  167 |   [01;36m[KSubscriber[m[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:167:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+  167 |   Subscriber([01;36m[KNodeType * node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+      |              [01;36m[K~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:162:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::Subscriber(message_filters::Subscriber<M, NodeType>::NodePtr, const string&, rmw_qos_profile_t) [with M = sensor_msgs::msg::Image_<std::allocator<void> >; NodeType = rclcpp::Node; message_filters::Subscriber<M, NodeType>::NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K’
+  162 |   [01;36m[KSubscriber[m[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:162:78:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kint[m[K’ to ‘[01m[Krmw_qos_profile_t[m[K’ {aka ‘[01m[Krmw_qos_profile_s[m[K’}
+  162 |   Subscriber(NodePtr node, const std::string& topic, [01;36m[Kconst rmw_qos_profile_t qos = rmw_qos_profile_default[m[K)
+      |                                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/stereo_node.dir/build.make:76: CMakeFiles/stereo_node.dir/ros2_stereo_node.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/stereo_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

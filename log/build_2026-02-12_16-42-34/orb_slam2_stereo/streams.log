@@ -1,0 +1,111 @@
+[0.016s] Invoking command in '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo -- -j18 -l18
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target g2o[0m
+[0.088s] [ 11%] Built target DBoW2
+[0.142s] [ 62%] Built target g2o
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target orb_slam2_core[0m
+[0.179s] [ 66%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/FrameDrawer.cc.o[0m
+[0.179s] [ 66%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Frame.cc.o[0m
+[0.185s] [ 69%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Initializer.cc.o[0m
+[0.187s] [ 69%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/KeyFrame.cc.o[0m
+[0.191s] [ 71%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/KeyFrameDatabase.cc.o[0m
+[0.203s] [ 72%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Sim3Solver.cc.o[0m
+[0.204s] [ 74%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LoopClosing.cc.o[0m
+[0.204s] [ 77%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/ORBmatcher.cc.o[0m
+[0.204s] [ 77%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LocalMapping.cc.o[0m
+[0.204s] [ 79%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Map.cc.o[0m
+[0.205s] [ 81%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/MapPoint.cc.o[0m
+[0.214s] [ 83%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Optimizer.cc.o[0m
+[0.214s] [ 84%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/MapDrawer.cc.o[0m
+[0.219s] [ 86%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/PnPsolver.cc.o[0m
+[0.228s] [ 88%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Tracking.cc.o[0m
+[0.233s] [ 89%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/System.cc.o[0m
+[0.247s] [ 91%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Viewer.cc.o[0m
+[0.846s] [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Sim3Solver.cc:31:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DUtils/Random.h: No such file or directory
+[0.846s]    31 | #include [01;31m[K"Thirdparty/DBoW2/DUtils/Random.h"[m[K
+[0.847s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.847s] compilation terminated.
+[0.863s] gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:286: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Sim3Solver.cc.o] Error 1
+[0.863s] gmake[2]: *** Waiting for unfinished jobs....
+[0.897s] [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Initializer.cc:23:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DUtils/Random.h: No such file or directory
+[0.897s]    23 | #include [01;31m[K"Thirdparty/DBoW2/DUtils/Random.h"[m[K
+[0.897s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.897s] compilation terminated.
+[0.910s] gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:118: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Initializer.cc.o] Error 1
+[0.922s] [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/ORBmatcher.cc:28:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DBoW2/FeatureVector.h: No such file or directory
+[0.923s]    28 | #include [01;31m[K"Thirdparty/DBoW2/DBoW2/FeatureVector.h"[m[K
+[0.923s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.925s] compilation terminated.
+[0.931s] [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/KeyFrameDatabase.cc:24:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DBoW2/BowVector.h: No such file or directory
+[0.932s]    24 | #include [01;31m[K"Thirdparty/DBoW2/DBoW2/BowVector.h"[m[K
+[0.932s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.937s] compilation terminated.
+[0.937s] gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:244: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/ORBmatcher.cc.o] Error 1
+[0.940s] gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:146: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/KeyFrameDatabase.cc.o] Error 1
+[0.951s] [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/PnPsolver.cc:58:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DUtils/Random.h: No such file or directory
+[0.951s]    58 | #include [01;31m[K"Thirdparty/DBoW2/DUtils/Random.h"[m[K
+[0.951s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.951s] compilation terminated.
+[0.958s] gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:272: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/PnPsolver.cc.o] Error 1
+[0.961s] In file included from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LocalMapping.h:26[m[K,
+[0.961s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:31[m[K,
+[0.962s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:24[m[K,
+[0.962s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:25[m[K,
+[0.962s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Viewer.cc:21[m[K:
+[0.962s] [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LoopClosing.h:34:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_seven_dof_expmap.h: No such file or directory
+[0.962s]    34 | #include [01;31m[K"Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"[m[K
+[0.962s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.962s] compilation terminated.
+[0.969s] gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:328: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Viewer.cc.o] Error 1
+[1.438s] In file included from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LocalMapping.h:26[m[K,
+[1.438s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:31[m[K,
+[1.439s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/System.h:29[m[K,
+[1.439s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/System.cc:23[m[K:
+[1.439s] [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LoopClosing.h:34:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_seven_dof_expmap.h: No such file or directory
+[1.439s]    34 | #include [01;31m[K"Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"[m[K
+[1.439s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.444s] compilation terminated.
+[1.444s] In file included from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LocalMapping.h:26[m[K,
+[1.444s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/LocalMapping.cc:21[m[K:
+[1.444s] [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LoopClosing.h:34:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_seven_dof_expmap.h: No such file or directory
+[1.444s]    34 | #include [01;31m[K"Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"[m[K
+[1.444s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.444s] compilation terminated.
+[1.445s] In file included from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Optimizer.h:27[m[K,
+[1.445s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Optimizer.cc:21[m[K:
+[1.445s] [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LoopClosing.h:34:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_seven_dof_expmap.h: No such file or directory
+[1.445s]    34 | #include [01;31m[K"Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"[m[K
+[1.445s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.445s] compilation terminated.
+[1.455s] gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:300: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/System.cc.o] Error 1
+[1.456s] gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:160: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LocalMapping.cc.o] Error 1
+[1.457s] gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:258: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Optimizer.cc.o] Error 1
+[1.463s] In file included from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LocalMapping.h:26[m[K,
+[1.463s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/System.h:33[m[K,
+[1.463s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:28[m[K,
+[1.463s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28[m[K,
+[1.463s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/FrameDrawer.h:24[m[K,
+[1.463s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/FrameDrawer.cc:21[m[K:
+[1.463s] [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LoopClosing.h:34:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_seven_dof_expmap.h: No such file or directory
+[1.463s]    34 | #include [01;31m[K"Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"[m[K
+[1.463s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.463s] compilation terminated.
+[1.472s] gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:104: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/FrameDrawer.cc.o] Error 1
+[1.528s] In file included from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/LoopClosing.cc:21[m[K:
+[1.529s] [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LoopClosing.h:34:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_seven_dof_expmap.h: No such file or directory
+[1.529s]    34 | #include [01;31m[K"Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"[m[K
+[1.529s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.529s] compilation terminated.
+[1.539s] gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:174: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LoopClosing.cc.o] Error 1
+[1.540s] In file included from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LocalMapping.h:26[m[K,
+[1.540s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/System.h:33[m[K,
+[1.540s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Viewer.h:28[m[K,
+[1.540s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/Tracking.h:28[m[K,
+[1.540s]                  from [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:22[m[K:
+[1.540s] [01m[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/include/ORB_SLAM2/LoopClosing.h:34:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_seven_dof_expmap.h: No such file or directory
+[1.540s]    34 | #include [01;31m[K"Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"[m[K
+[1.540s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.540s] compilation terminated.
+[1.551s] gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:314: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Tracking.cc.o] Error 1
+[17.149s] gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/orb_slam2_core.dir/all] Error 2
+[17.149s] gmake: *** [Makefile:146: all] Error 2
+[17.154s] Invoked command in '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo -- -j18 -l18

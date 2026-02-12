@@ -31,7 +31,7 @@
 
 #include <thread>
 #include <mutex>
-#include "Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"
+#include "../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"
 
 namespace ORB_SLAM2
 {
@@ -143,7 +143,7 @@ protected:
     bool mbFixScale;
 
 
-    bool mnFullBAIdx;
+    int mnFullBAIdx;
 };
 
 } //namespace ORB_SLAM

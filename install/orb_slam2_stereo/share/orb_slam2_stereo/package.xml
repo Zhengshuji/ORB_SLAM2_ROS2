@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>orb_slam2_stereo</name>
+  <version>1.0.0</version>
+  <description>ORB-SLAM2 Stereo for ROS2 Humble</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>GPLv3</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <!-- 编译依赖 -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>message_filters</depend>
+  <depend>opencv_viz</depend>
+
+  <build_depend>eigen3_cmake_module</build_depend>
+  <build_depend>Eigen3</build_depend>
+  <build_depend>pangolin</build_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,30 @@
+[ 11%] Built target DBoW2
+[ 62%] Built target g2o
+[35m[1mConsolidate compiler generated dependencies of target orb_slam2_core[0m
+[ 96%] Built target orb_slam2_core
+[35m[1mConsolidate compiler generated dependencies of target stereo_node[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/stereo_node.dir/ros2_stereo_node.cc.o[0m
+[100%] [32m[1mLinking CXX executable stereo_node[0m
+[100%] Built target stereo_node
+-- Install configuration: "Release"
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/lib/orb_slam2_stereo/stereo_node
+-- Set runtime path of "/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/lib/orb_slam2_stereo/stereo_node" to ""
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/config
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/config/EuRoC.yaml
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/Vocabulary
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/Vocabulary/ORBvoc.txt.tar.gz
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/ament_index/resource_index/package_run_dependencies/orb_slam2_stereo
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/ament_index/resource_index/parent_prefix_path/orb_slam2_stereo
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/environment/ament_prefix_path.sh
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/environment/ament_prefix_path.dsv
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/environment/path.sh
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/environment/path.dsv
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/local_setup.bash
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/local_setup.sh
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/local_setup.zsh
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/local_setup.dsv
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/package.dsv
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/ament_index/resource_index/packages/orb_slam2_stereo
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/cmake/orb_slam2_stereoConfig.cmake
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/cmake/orb_slam2_stereoConfig-version.cmake
+-- Installing: /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/install/orb_slam2_stereo/share/orb_slam2_stereo/package.xml

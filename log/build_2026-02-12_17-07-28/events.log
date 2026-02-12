@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.000885] (orb_slam2_stereo) JobQueued: {'identifier': 'orb_slam2_stereo', 'dependencies': OrderedDict()}
+[0.000957] (orb_slam2_stereo) JobStarted: {'identifier': 'orb_slam2_stereo'}
+[0.013251] (orb_slam2_stereo) JobProgress: {'identifier': 'orb_slam2_stereo', 'progress': 'cmake'}
+[0.014877] (orb_slam2_stereo) JobProgress: {'identifier': 'orb_slam2_stereo', 'progress': 'build'}
+[0.016694] (orb_slam2_stereo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo', '--', '-j18', '-l18'], 'cwd': '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'zsj'), ('GIT_ASKPASS', '/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/zsj'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-073531b3-f422-4809-a5f7-ab58e98e5371.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_CONDA_ROOT', '/home/zsj/tools/miniconda3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zsj'), ('NAME', 'Zhuxingjie'), ('WSL_INTEROP', '/run/WSL/413_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zsj/.local/bin:/home/zsj/.local/bin:/home/zsj/.local/bin:(/home/zsj/tools/miniconda3/bin:/home/zsj/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/zsj/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/zsj/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/home/zsj/.local/bin:/home/zsj/.local/bin:/home/zsj/.local/bin:/opt/ros/humble/bin:(/home/zsj/tools/miniconda3/bin:/home/zsj/tools/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/anaconda3-updata:/mnt/c/ProgramData/anaconda3-updata/Scripts:/mnt/c/ProgramData/anaconda3-updata/Library/bin:/mnt/c/ProgramData/anaconda3-updata/Library/mingw-w64/bin:/mnt/c/Program Files/JetBrains/PyCharm 2024.1/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/d/Matlab/bin:/mnt/d/Matlab/runtime/win64:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/90/Tools/binn:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin:/mnt/d/OpenCV/x86_64-12.2.0-release-win32-sjlj-rt_v10-rev0/mingw64/bin:/mnt/d/OpenCV/cmake-3.30.0-windows-x86_64/cmake-3.30.0-windows-x86_64/bin:/mnt/d/OpenCV/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/wget:/mnt/d/Program Files/texlive/2024/bin/windows:/mnt/c/Program Files/OpenSSH/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/d/OpenCV/MinGW/bin:/mnt/c/Users/26074/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/26074/AppData/Local/Microsoft/WinGet/Packages/Game1024.OpenSpeedy_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/26074/AppData/Local/Programs/Ollama:/mnt/c/Users/26074/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin):/mnt/c/Users/26074/AppData/Local/Programs/Microsoft VS Code/bin):/mnt/c/Users/26074/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1a22f3f7b8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zsj/tools/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_CONDA_EXE', '/home/zsj/tools/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo'), ('CONDA_EXE', '/home/zsj/tools/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/zsj/tools/miniconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101521] (-) TimerEvent: {}
+[0.112374] (orb_slam2_stereo) StdoutLine: {'line': b'[ 11%] Built target DBoW2\n'}
+[0.132526] (orb_slam2_stereo) StdoutLine: {'line': b'[ 62%] Built target g2o\n'}
+[0.163867] (orb_slam2_stereo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orb_slam2_core\x1b[0m\n'}
+[0.203429] (-) TimerEvent: {}
+[0.223009] (orb_slam2_stereo) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LoopClosing.cc.o\x1b[0m\n'}
+[0.225561] (orb_slam2_stereo) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/PnPsolver.cc.o\x1b[0m\n'}
+[0.236230] (orb_slam2_stereo) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Tracking.cc.o\x1b[0m\n'}
+[0.306565] (-) TimerEvent: {}
+[0.407993] (-) TimerEvent: {}
+[0.508986] (-) TimerEvent: {}
+[0.610532] (-) TimerEvent: {}
+[0.713591] (-) TimerEvent: {}
+[0.816433] (-) TimerEvent: {}
+[0.917591] (-) TimerEvent: {}
+[1.020409] (-) TimerEvent: {}
+[1.122349] (-) TimerEvent: {}
+[1.225839] (-) TimerEvent: {}
+[1.328904] (-) TimerEvent: {}
+[1.432233] (-) TimerEvent: {}
+[1.535539] (-) TimerEvent: {}
+[1.638560] (-) TimerEvent: {}
+[1.741936] (-) TimerEvent: {}
+[1.845102] (-) TimerEvent: {}
+[1.948192] (-) TimerEvent: {}
+[2.056321] (-) TimerEvent: {}
+[2.165441] (-) TimerEvent: {}
+[2.274551] (-) TimerEvent: {}
+[2.383753] (-) TimerEvent: {}
+[2.492872] (-) TimerEvent: {}
+[2.602053] (-) TimerEvent: {}
+[2.711050] (-) TimerEvent: {}
+[2.819779] (-) TimerEvent: {}
+[2.920534] (-) TimerEvent: {}
+[3.022330] (-) TimerEvent: {}
+[3.124494] (-) TimerEvent: {}
+[3.226413] (-) TimerEvent: {}
+[3.328526] (-) TimerEvent: {}
+[3.429798] (-) TimerEvent: {}
+[3.530735] (-) TimerEvent: {}
+[3.632961] (-) TimerEvent: {}
+[3.735231] (-) TimerEvent: {}
+[3.837681] (-) TimerEvent: {}
+[3.940252] (-) TimerEvent: {}
+[4.043099] (-) TimerEvent: {}
+[4.146382] (-) TimerEvent: {}
+[4.248947] (-) TimerEvent: {}
+[4.350888] (-) TimerEvent: {}
+[4.453771] (-) TimerEvent: {}
+[4.554727] (-) TimerEvent: {}
+[4.658002] (-) TimerEvent: {}
+[4.761004] (-) TimerEvent: {}
+[4.863663] (-) TimerEvent: {}
+[4.965720] (-) TimerEvent: {}
+[5.069047] (-) TimerEvent: {}
+[5.172220] (-) TimerEvent: {}
+[5.273328] (-) TimerEvent: {}
+[5.374382] (-) TimerEvent: {}
+[5.475372] (-) TimerEvent: {}
+[5.576182] (-) TimerEvent: {}
+[5.677153] (-) TimerEvent: {}
+[5.778164] (-) TimerEvent: {}
+[5.881486] (-) TimerEvent: {}
+[5.984696] (-) TimerEvent: {}
+[6.087522] (-) TimerEvent: {}
+[6.190890] (-) TimerEvent: {}
+[6.294086] (-) TimerEvent: {}
+[6.397022] (-) TimerEvent: {}
+[6.499504] (-) TimerEvent: {}
+[6.601939] (-) TimerEvent: {}
+[6.704702] (-) TimerEvent: {}
+[6.805636] (-) TimerEvent: {}
+[6.908439] (-) TimerEvent: {}
+[6.979535] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/LoopClosing.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM2::LoopClosing::CorrectLoop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.979884] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/LoopClosing.cc:416:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of an operand of type \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Koperator++\x1b[m\x1b[K\xe2\x80\x99 is forbidden in C++17\n'}
+[6.979954] (orb_slam2_stereo) StderrLine: {'line': b'  416 |         \x1b[01;31m\x1b[KmnFullBAIdx\x1b[m\x1b[K++;\n'}
+[6.980004] (orb_slam2_stereo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.009719] (-) TimerEvent: {}
+[7.084971] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat ORB_SLAM2::Tracking::GrabImageStereo(const cv::Mat&, const cv::Mat&, const double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.085361] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:177:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KColor_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.085427] (orb_slam2_stereo) StderrLine: {'line': b'  177 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KColor_RGB2GRAY\x1b[m\x1b[K);\n'}
+[7.085479] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.111991] (-) TimerEvent: {}
+[7.147752] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:182:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KColor_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.148428] (orb_slam2_stereo) StderrLine: {'line': b'  182 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KColor_BGR2GRAY\x1b[m\x1b[K);\n'}
+[7.148500] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.205357] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:190:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.205755] (orb_slam2_stereo) StderrLine: {'line': b'  190 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_RGBA2GRAY\x1b[m\x1b[K);\n'}
+[7.205810] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.212754] (-) TimerEvent: {}
+[7.273587] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:195:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KColor_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.274077] (orb_slam2_stereo) StderrLine: {'line': b'  195 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KColor_BGRA2GRAY\x1b[m\x1b[K);\n'}
+[7.274173] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.314812] (-) TimerEvent: {}
+[7.339195] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat ORB_SLAM2::Tracking::GrabImageRGBD(const cv::Mat&, const cv::Mat&, const double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.339498] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:216:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KColor_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.339557] (orb_slam2_stereo) StderrLine: {'line': b'  216 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KColor_RGB2GRAY\x1b[m\x1b[K);\n'}
+[7.339604] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.395119] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:218:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KColor_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.395384] (orb_slam2_stereo) StderrLine: {'line': b'  218 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KColor_BGR2GRAY\x1b[m\x1b[K);\n'}
+[7.395438] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.415918] (-) TimerEvent: {}
+[7.446821] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:223:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.448104] (orb_slam2_stereo) StderrLine: {'line': b'  223 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_RGBA2GRAY\x1b[m\x1b[K);\n'}
+[7.448856] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.515869] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:225:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KColor_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.516491] (-) TimerEvent: {}
+[7.516810] (orb_slam2_stereo) StderrLine: {'line': b'  225 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KColor_BGRA2GRAY\x1b[m\x1b[K);\n'}
+[7.517076] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.583842] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat ORB_SLAM2::Tracking::GrabImageMonocular(const cv::Mat&, const double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.584254] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:246:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KColor_RGB2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.584335] (orb_slam2_stereo) StderrLine: {'line': b'  246 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KColor_RGB2GRAY\x1b[m\x1b[K);\n'}
+[7.584384] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.616878] (-) TimerEvent: {}
+[7.655283] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:248:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KColor_BGR2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.655672] (orb_slam2_stereo) StderrLine: {'line': b'  248 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KColor_BGR2GRAY\x1b[m\x1b[K);\n'}
+[7.655780] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.699443] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:253:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCV_RGBA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.700070] (orb_slam2_stereo) StderrLine: {'line': b'  253 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KCV_RGBA2GRAY\x1b[m\x1b[K);\n'}
+[7.700295] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.718587] (-) TimerEvent: {}
+[7.763817] (orb_slam2_stereo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/src/ORB_SLAM2/Tracking.cc:255:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KColor_BGRA2GRAY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.764215] (orb_slam2_stereo) StderrLine: {'line': b'  255 |             cvtColor(mImGray,mImGray,\x1b[01;31m\x1b[KColor_BGRA2GRAY\x1b[m\x1b[K);\n'}
+[7.764274] (orb_slam2_stereo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.823335] (-) TimerEvent: {}
+[7.932167] (-) TimerEvent: {}
+[8.041135] (-) TimerEvent: {}
+[8.150297] (-) TimerEvent: {}
+[8.259773] (-) TimerEvent: {}
+[8.369215] (-) TimerEvent: {}
+[8.478317] (-) TimerEvent: {}
+[8.581373] (-) TimerEvent: {}
+[8.684687] (-) TimerEvent: {}
+[8.787904] (-) TimerEvent: {}
+[8.890900] (-) TimerEvent: {}
+[8.993746] (-) TimerEvent: {}
+[9.097287] (-) TimerEvent: {}
+[9.200439] (-) TimerEvent: {}
+[9.308529] (-) TimerEvent: {}
+[9.417691] (-) TimerEvent: {}
+[9.526920] (-) TimerEvent: {}
+[9.635918] (-) TimerEvent: {}
+[9.744987] (-) TimerEvent: {}
+[9.854087] (-) TimerEvent: {}
+[9.963106] (-) TimerEvent: {}
+[10.071861] (-) TimerEvent: {}
+[10.180216] (-) TimerEvent: {}
+[10.289174] (-) TimerEvent: {}
+[10.398247] (-) TimerEvent: {}
+[10.507415] (-) TimerEvent: {}
+[10.616580] (-) TimerEvent: {}
+[10.725599] (-) TimerEvent: {}
+[10.834849] (-) TimerEvent: {}
+[10.936266] (-) TimerEvent: {}
+[11.037321] (-) TimerEvent: {}
+[11.138557] (-) TimerEvent: {}
+[11.239867] (-) TimerEvent: {}
+[11.340582] (-) TimerEvent: {}
+[11.441658] (-) TimerEvent: {}
+[11.542845] (-) TimerEvent: {}
+[11.644052] (-) TimerEvent: {}
+[11.745014] (-) TimerEvent: {}
+[11.846162] (-) TimerEvent: {}
+[11.947174] (-) TimerEvent: {}
+[12.047900] (-) TimerEvent: {}
+[12.148489] (-) TimerEvent: {}
+[12.249040] (-) TimerEvent: {}
+[12.351380] (-) TimerEvent: {}
+[12.453113] (-) TimerEvent: {}
+[12.555566] (-) TimerEvent: {}
+[12.656923] (-) TimerEvent: {}
+[12.759688] (-) TimerEvent: {}
+[12.862277] (-) TimerEvent: {}
+[12.965241] (-) TimerEvent: {}
+[13.068014] (-) TimerEvent: {}
+[13.170209] (-) TimerEvent: {}
+[13.273064] (-) TimerEvent: {}
+[13.375919] (-) TimerEvent: {}
+[13.477075] (-) TimerEvent: {}
+[13.579266] (-) TimerEvent: {}
+[13.681294] (-) TimerEvent: {}
+[13.784035] (-) TimerEvent: {}
+[13.886628] (-) TimerEvent: {}
+[13.989380] (-) TimerEvent: {}
+[14.091512] (-) TimerEvent: {}
+[14.194645] (-) TimerEvent: {}
+[14.297963] (-) TimerEvent: {}
+[14.401528] (-) TimerEvent: {}
+[14.504746] (-) TimerEvent: {}
+[14.607529] (-) TimerEvent: {}
+[14.710903] (-) TimerEvent: {}
+[14.812136] (-) TimerEvent: {}
+[14.912832] (-) TimerEvent: {}
+[15.015968] (-) TimerEvent: {}
+[15.119427] (-) TimerEvent: {}
+[15.221555] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:174: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LoopClosing.cc.o] Error 1\n'}
+[15.221808] (-) TimerEvent: {}
+[15.221943] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[15.330431] (-) TimerEvent: {}
+[15.439391] (-) TimerEvent: {}
+[15.548524] (-) TimerEvent: {}
+[15.658118] (-) TimerEvent: {}
+[15.767469] (-) TimerEvent: {}
+[15.876559] (-) TimerEvent: {}
+[15.985590] (-) TimerEvent: {}
+[16.094655] (-) TimerEvent: {}
+[16.129709] (orb_slam2_stereo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/orb_slam2_core.dir/build.make:314: CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Tracking.cc.o] Error 1\n'}
+[16.130048] (orb_slam2_stereo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/orb_slam2_core.dir/all] Error 2\n'}
+[16.130211] (orb_slam2_stereo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.135859] (orb_slam2_stereo) CommandEnded: {'returncode': 2}
+[16.161683] (orb_slam2_stereo) JobEnded: {'identifier': 'orb_slam2_stereo', 'rc': 2}
+[16.172933] (-) EventReactorShutdown: {}
