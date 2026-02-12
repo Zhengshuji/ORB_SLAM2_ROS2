@@ -1,0 +1,166 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-3bae653f3327b41e40c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "Thirdparty/DBoW2",
+					"jsonFile" : "directory-Thirdparty.DBoW2-Release-641658a67f43dd067cdd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Thirdparty/DBoW2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Thirdparty/g2o",
+					"jsonFile" : "directory-Thirdparty.g2o-Release-96235f76f9ee371af9b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Thirdparty/g2o",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "orb_slam2_stereo",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "DBoW2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "g2o",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "DBoW2::@6f2b5525a279792a37b3",
+					"jsonFile" : "target-DBoW2-Release-21f4efe9bed8033f0036.json",
+					"name" : "DBoW2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "g2o::@f8c4e7b936044c71b29a",
+					"jsonFile" : "target-g2o-Release-ae98606c9ffe89f20e1c.json",
+					"name" : "g2o",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orb_slam2_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orb_slam2_core-Release-2f800447fea2cfa30d9e.json",
+					"name" : "orb_slam2_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orb_slam2_stereo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orb_slam2_stereo_uninstall-Release-17c92b094414006c7737.json",
+					"name" : "orb_slam2_stereo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_node-Release-d57443b15d3022cb291c.json",
+					"name" : "stereo_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9f27bec13014fe6007b4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/build/orb_slam2_stereo",
+		"source" : "/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
