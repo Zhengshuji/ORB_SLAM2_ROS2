@@ -1,5 +1,0 @@
-[ 11%] Built target DBoW2
-[ 62%] Built target g2o
-[35m[1mConsolidate compiler generated dependencies of target orb_slam2_core[0m
-[ 64%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/LoopClosing.cc.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/orb_slam2_core.dir/src/ORB_SLAM2/Tracking.cc.o[0m
