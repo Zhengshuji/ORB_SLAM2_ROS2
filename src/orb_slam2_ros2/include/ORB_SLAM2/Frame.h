@@ -47,6 +47,7 @@ public:
 
     // Copy constructor.
     Frame(const Frame &frame);
+    Frame& operator=(const Frame&) = default;
 
     // Constructor for stereo cameras.
     Frame(const cv::Mat &imLeft, const cv::Mat &imRight, const double &timeStamp, ORBextractor* extractorLeft, ORBextractor* extractorRight, ORBVocabulary* voc, cv::Mat &K, cv::Mat &distCoef, const float &bf, const float &thDepth);

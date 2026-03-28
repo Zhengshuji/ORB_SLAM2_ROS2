@@ -121,6 +121,11 @@ protected:
 
     bool mbAcceptKeyFrames;
     std::mutex mMutexAccept;
+
+public:
+    ~LocalMapping();
+private:
+    std::thread* mpThread;
 };
 
 } //namespace ORB_SLAM

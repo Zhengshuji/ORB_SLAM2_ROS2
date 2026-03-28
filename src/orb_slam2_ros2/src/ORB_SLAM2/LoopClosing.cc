@@ -772,5 +772,37 @@ bool LoopClosing::isFinished()
     return mbFinished;
 }
 
+LoopClosing::~LoopClosing()
+{
+    // 1. 停止并释放GBA线程
+    if (mpThreadGBA)
+    {
+        mbStopGBA = true; // 请求停止GBA
+        if (mpThreadGBA->joinable())
+            mpThreadGBA->join(); // 等待线程结束
+        delete mpThreadGBA;
+        mpThreadGBA = nullptr;
+    }
+
+    // 2. 清理循环队列中的KeyFrame（仅置空，所有权归Map）
+    unique_lock<mutex> lock(mMutexLoopQueue);
+    for (KeyFrame* pKF : mlpLoopKeyFrameQueue)
+    {
+        pKF->SetErase();
+        pKF = nullptr;
+    }
+    mlpLoopKeyFrameQueue.clear();
+
+    // 3. 清理容器资源
+    mvConsistentGroups.clear();
+    mvpEnoughConsistentCandidates.clear();
+    mvpCurrentMatchedPoints.clear();
+    mvpLoopMapPoints.clear();
+
+    // 4. 重置标志位
+    mbFinished = true;
+    mbRunningGBA = false;
+    mbFinishedGBA = true;
+}
 
 } //namespace ORB_SLAM

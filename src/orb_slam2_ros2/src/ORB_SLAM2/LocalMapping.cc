@@ -757,4 +757,24 @@ bool LocalMapping::isFinished()
     return mbFinished;
 }
 
+LocalMapping::~LocalMapping()
+{
+    // 1. 调用Release清理新关键帧队列
+    Release();
+
+    // 2. 停止并释放局部建图线程
+    RequestStop(); // 请求停止线程
+    if (mpThread && mpThread->joinable())
+    {
+        mpThread->join();
+        delete mpThread;
+        mpThread = nullptr;
+    }
+
+    // 3. 重置标志位
+    mbStopped = true;
+    mbStopRequested = false;
+    mbFinished = true;
+}
+
 } //namespace ORB_SLAM

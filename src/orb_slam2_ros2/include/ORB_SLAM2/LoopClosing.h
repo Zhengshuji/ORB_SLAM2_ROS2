@@ -144,6 +144,9 @@ protected:
 
 
     int mnFullBAIdx;
+
+public:
+    ~LoopClosing();
 };
 
 } //namespace ORB_SLAM

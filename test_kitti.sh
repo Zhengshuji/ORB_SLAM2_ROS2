@@ -5,8 +5,8 @@ source install/setup.sh
 
 # 1. 定义路径（根据你的实际路径调整）
 PROJECT_ROOT=$(cd $(dirname $0); pwd)
-VOCAB_PATH="/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam2_ros2/Vocabulary/ORBvoc.txt"
-CONFIG_PATH="/home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam2_ros2/config/KITTI00-02.yaml"  # KITTI配置文件
+VOCAB_PATH="${PROJECT_ROOT}/src/orb_slam2_ros2/Vocabulary/ORBvoc.txt"
+CONFIG_PATH="${PROJECT_ROOT}/src/orb_slam2_ros2/config/KITTI00-02.yaml"  # KITTI配置文件
 KITTI_SEQUENCE_PATH="${PROJECT_ROOT}/src/data_odometry_gray/dataset/sequences/00"  # 你的KITTI数据集序列路径
 
 ## -------------------------- （动态）库路径添加 --------------------------
