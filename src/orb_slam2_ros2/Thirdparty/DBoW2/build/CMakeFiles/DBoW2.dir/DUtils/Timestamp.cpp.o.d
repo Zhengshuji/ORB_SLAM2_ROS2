@@ -1,5 +1,5 @@
 CMakeFiles/DBoW2.dir/DUtils/Timestamp.cpp.o: \
- /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/Thirdparty/DBoW2/DUtils/Timestamp.cpp \
+ /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam2_ros2/Thirdparty/DBoW2/DUtils/Timestamp.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -187,5 +187,5 @@ CMakeFiles/DBoW2.dir/DUtils/Timestamp.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/quoted_string.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
- /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/Thirdparty/DBoW2/DUtils/Timestamp.h \
+ /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam2_ros2/Thirdparty/DBoW2/DUtils/Timestamp.h \
  /usr/include/c++/11/iostream

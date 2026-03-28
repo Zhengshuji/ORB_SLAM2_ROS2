@@ -1,5 +1,5 @@
 CMakeFiles/DBoW2.dir/DBoW2/BowVector.cpp.o: \
- /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/Thirdparty/DBoW2/DBoW2/BowVector.cpp \
+ /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam2_ros2/Thirdparty/DBoW2/DBoW2/BowVector.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -201,7 +201,7 @@ CMakeFiles/DBoW2.dir/DBoW2/BowVector.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/Thirdparty/DBoW2/DBoW2/BowVector.h \
+ /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam2_ros2/Thirdparty/DBoW2/DBoW2/BowVector.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h

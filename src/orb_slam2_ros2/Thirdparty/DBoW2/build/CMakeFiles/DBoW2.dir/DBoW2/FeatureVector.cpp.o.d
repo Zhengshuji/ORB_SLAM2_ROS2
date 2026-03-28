@@ -1,8 +1,8 @@
 CMakeFiles/DBoW2.dir/DBoW2/FeatureVector.cpp.o: \
- /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp \
+ /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam2_ros2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp \
  /usr/include/stdc-predef.h \
- /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/Thirdparty/DBoW2/DBoW2/FeatureVector.h \
- /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam_stero/Thirdparty/DBoW2/DBoW2/BowVector.h \
+ /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam2_ros2/Thirdparty/DBoW2/DBoW2/FeatureVector.h \
+ /home/zsj/WorkSpace/ORB2_SLAM/ORB_SLAM2_ROS2/src/orb_slam2_ros2/Thirdparty/DBoW2/DBoW2/BowVector.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

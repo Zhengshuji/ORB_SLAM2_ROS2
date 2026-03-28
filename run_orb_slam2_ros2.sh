@@ -1,11 +1,19 @@
 #!/bin/bash
 
+source install/setup.sh
+
 # ==============================================================================
 # ORB_SLAM2 ROS2 双目节点运行脚本
 # 功能：通过变量管理参数，一键运行ros2_stereo_node节点
 # 使用说明：修改下方的变量为你的实际路径后，执行 chmod +x run_stereo_orb_slam2.sh && ./run_stereo_orb_slam2.sh
 # ==============================================================================
 
+## -------------------------- （动态）库路径添加 --------------------------
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./build/orb_slam2_ros2/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./src/orb_slam2_ros2/Thirdparty/DBoW2/lib/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./src/orb_slam2_ros2/Thirdparty/g2o/lib/
+
+export ASAN_OPTIONS=new_delete_type_mismatch=0
 # -------------------------- 核心参数配置（请根据实际路径修改） --------------------------
 # ORB词典文件路径（ORBvoc.txt）
 VOCAB_PATH="./src/orb_slam2_ros2/Vocabulary/ORBvoc.txt"
